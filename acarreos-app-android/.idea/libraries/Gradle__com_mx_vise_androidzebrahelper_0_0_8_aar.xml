@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mx.vise:androidzebrahelper:0.0.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/commons-validator-1.4.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/prov-1.53.0.0.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/snmp6_1z.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/opencsv-2.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/httpmime-4.3.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/commons-lang3-3.4.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/ZSDK_ANDROID_API.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/httpcore-4.3.1.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/core-1.53.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/pkix-1.53.0.0.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/commons-io-2.2.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/68f6b4a3e0cddaf4e35530efa92014c1/jars/libs/commons-net-3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

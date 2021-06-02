@@ -1,0 +1,10 @@
+jdbc.sql.driver.class.name=net.sourceforge.jtds.jdbc.Driver
+jdbc.sql.url=jdbc:jtds:sqlserver://VISE-XPL2.vise.com.mx:1433/cubicacion;
+jdbc.sql.username=dbv
+jdbc.sql.password=Nintendo-link02
+
+jdbc.sql.nav.sistemas.driver.class.name=net.sourceforge.jtds.jdbc.Driver
+jdbc.sql.nav.sistemas.url=jdbc:jtds:sqlserver://VISE-NAV:1433/sistemas;
+jdbc.sql.nav.sistemas.username=sa
+jdbc.sql.nav.sistemas.password=gvise0709
+jdbc.sql.nav.sistemas.dialect=org.hibernate.dialect.SQLServerDialect

@@ -1,0 +1,8 @@
+
+Ksquid:S1066y"/Merge this if statement with the enclosing one.(ς®΅―ώÿÿÿÿ
+{squid:S14500"dRemove the "mReestablishTagButton" field and declare it as a local variable in the relevant methods.(Ϊ ­ΐ
+msquid:UselessImportCheck"IRemove this unused import 'com.mx.vise.acarreos.activities.MainActivity'.(‘φ¦τ
+U"squid:SwitchLastCaseIsDefaultCheckB""Add a default case to this switch.(Χ“Ύρωÿÿÿÿ
+osquid:S1301“"KReplace this "switch" statement by "if" statements to increase readability.(²‹›Ψόÿÿÿÿ8Τ¦½Ω-
+gsquid:S1301B"KReplace this "switch" statement by "if" statements to increase readability.(Χ“Ύρωÿÿÿÿ
+”"squid:SwitchLastCaseIsDefaultCheck“"YComplete cases by adding the missing enum constants or add a default case to this switch.(²‹›Ψόÿÿÿÿ8Τ¦½Ω-

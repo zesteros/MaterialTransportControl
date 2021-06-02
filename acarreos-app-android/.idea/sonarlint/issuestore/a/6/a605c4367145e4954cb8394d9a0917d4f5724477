@@ -1,0 +1,34 @@
+
+]"squid:SwitchLastCaseIsDefaultCheck°""Add a default case to this switch.(¿ÂÐ¥üÿÿÿÿ8›ŽÕéØ-
+osquid:CommentedOutCodeLine–"<This block of commented-out lines of code should be removed.(Ÿöýúúÿÿÿÿ8›ŽÕéØ-
+jsquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(Œòíš8›ŽÕéØ-
+;squid:S1643 "Use a StringBuilder instead.(Ô äï8›ŽÕéØ-
+Ksquid:S1066z"/Merge this if statement with the enclosing one.(œ˜÷“üÿÿÿÿ
+Ssquid:S1133ù"5Do not forget to remove this deprecated code someday.(·†±~8ÍöÏ¼Ù-
+:squid:S1643‡"Use a StringBuilder instead.(º³£!8›ŽÕéØ-
+jsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‹‰à­8€Ï¼Ù-
+o squid:LabelsShouldNotBeUsedCheck";Refactor the code to remove this label and the need for it.(Ò¸þ‚8›ŽÕéØ-
+osquid:S1301°"KReplace this "switch" statement by "if" statements to increase readability.(¿ÂÐ¥üÿÿÿÿ8›ŽÕéØ-
+Gsquid:S1148Ê"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8›ŽÕéØ-
+esquid:S1126µ"AReplace this if-then-else statement by a single return statement.(úçÊóÿÿÿÿÿ8¢ ö½Ù-
+Esquid:S1066{"/Merge this if statement with the enclosing one.(ù„þ1
+@squid:S1643›"Use a StringBuilder instead.(ë¦Ê¯úÿÿÿÿ8›ŽÕéØ-
+lsquid:S2259Ã"HA "NullPointerException" could be thrown; "dataParted" is nullable here.(«Í×Ÿùÿÿÿÿ8›ŽÕéØ-
+]squid:S1118":Add a private constructor to hide the implicit public one.(íã¼»ýÿÿÿÿ8¯Ñ÷½Ù-
+šsquid:S1319ž"vThe type of the "readSectors" object should be an interface such as "List" rather than the implementation "ArrayList".(ŠæŒ‰þÿÿÿÿ8éŸ¼¼Ù-
+Gsquid:S1148Û"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8›ŽÕéØ-
+]squid:S4719Ù"9Replace charset name argument with StandardCharsets.UTF_8(¦ÃýÄùÿÿÿÿ8›ŽÕéØ-
+]"squid:SwitchLastCaseIsDefaultCheckß""Add a default case to this switch.(ÜóÏ½ûÿÿÿÿ8éŸ¼¼Ù-
+Fsquid:S1066y"/Merge this if statement with the enclosing one.(Š”À
+isquid:S37763"RRefactor this method to reduce its Cognitive Complexity from 56 to the 15 allowed.(×éòº
+Esquid:S1168Ž"&Return an empty array instead of null.(¥¹ï8›ŽÕéØ-
+jsquid:CommentedOutCodeLine™"<This block of commented-out lines of code should be removed.(¦¤ßŽ8›ŽÕéØ-
+Usquid:S1068#"9Remove this unused "SIZE_OF_TAG_IN_BLOCKS" private field.(¥Ê›ìùÿÿÿÿ
+jsquid:CommentedOutCodeLine’"<This block of commented-out lines of code should be removed.(°³óâ8€Ï¼Ù-
+Rsquid:S1066s"/Merge this if statement with the enclosing one.(‚ºù†ÿÿÿÿÿ8ˆ´©½Ù-
+@squid:S1643ï"Use a StringBuilder instead.(‹–˜úüÿÿÿÿ8›ŽÕéØ-
+hsquid:UselessImportCheck"?Remove this unused import 'androidx.core.content.FileProvider'.(ïŒø€ûÿÿÿÿ
+?squid:S1148e"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Gsquid:S1148«"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8›ŽÕéØ-
+vsquid:S3776œ"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(¸ÂúÕüÿÿÿÿ8éŸ¼¼Ù-
+Wsquid:MissingDeprecatedCheckù"(Add the missing @deprecated Javadoc tag.(·†±~8ÍöÏ¼Ù-

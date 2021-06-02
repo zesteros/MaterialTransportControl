@@ -1,0 +1,253 @@
+<!-- Creado por @Angelo Loza Archivo de contexto de la conexión al modelo 
+	de la base de datos. -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-4.2.xsd
+http://www.springframework.org/schema/tx
+http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc.xsd
+http://www.springframework.org/schema/task
+http://www.springframework.org/schema/task/spring-task-4.2.xsd">
+
+	<!-- Property Configurator -->
+	<context:property-placeholder
+		location="/WEB-INF/database.properties" />
+	<!-- End Property Configurator -->
+
+
+	<!-- SQL CONECTION coneccion al vise-xpl2 -->
+	<bean id="dataSourceSql"
+		class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass"
+			value="${jdbc.sql.driver.class.name}" />
+		<property name="jdbcUrl" value="${jdbc.sql.url}" />
+		<property name="user" value="${jdbc.sql.username}" />
+		<property name="password" value="${jdbc.sql.password}" />
+		<property name="acquireIncrement" value="1" />
+		<property name="acquireRetryAttempts" value="3" />
+		<property name="acquireRetryDelay" value="300" />
+		<property name="initialPoolSize" value="5" />
+		<property name="maxPoolSize" value="15" />
+		<property name="minPoolSize" value="4" />
+	</bean>
+
+
+	<bean id="hib4AnnSesFacSql"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceSql" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubCatSindi</value>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubCatMarca</value>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubCamion</value>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubInfocub</value>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubFotoRecor</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="org.hibernate.transaction">true</prop>
+			</props>
+		</property>
+	</bean>
+	<tx:annotation-driven
+		transaction-manager="transactionManagerXPL2" />
+	<bean id="transactionManagerXPL2"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="hib4AnnSesFacSql"></property>
+	</bean>
+	<!-- FIN SQL CONECTION conexion al vise-xpl2 -->
+	
+	<!-- SQL CONECTION coneccion al vise-nav Sistemas -->
+	<bean id="dataSourceSqlNavSistemas" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass"
+			value="${jdbc.sql.nav.sistemas.driver.class.name}" />
+		<property name="jdbcUrl" value="${jdbc.sql.nav.sistemas.url}" />
+		<property name="user" value="${jdbc.sql.nav.sistemas.username}" />
+		<property name="password" value="${jdbc.sql.nav.sistemas.password}" />
+		<property name="acquireIncrement" value="1" />
+		<property name="acquireRetryAttempts" value="3" />
+		<property name="acquireRetryDelay" value="300" />
+		<property name="initialPoolSize" value="1" />
+		<property name="maxPoolSize" value="15" />
+		<property name="minPoolSize" value="1" />
+		<property name="testConnectionOnCheckin" value="true" />
+		<property name="idleConnectionTestPeriod" value="180"/>
+        <property name="preferredTestQuery" value="SELECT 1"/>
+	</bean>
+
+	<bean id="hib4AnnSesFacSqlNavSistemas"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceSqlNavSistemas" />
+		<property name="packagesToScan">
+			<array>
+				<value>com.mx.vise.nav.sistemas.activos.model</value>
+			</array>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="org.hibernate.transaction">true</prop>
+			</props>
+		</property>
+	</bean>
+
+
+	<tx:annotation-driven transaction-manager="transactionManagerNavSistemas" />
+	<bean id="transactionManagerNavSistemas"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="hib4AnnSesFacSqlNavSistemas"></property>
+	</bean>
+	
+	<!-- FIN SQL CONECTION conexion al vise-nav sistemas -->
+	
+	
+	<!-- SQL CONNECTION A vise-xpl2 acarreos -->
+	<bean id="dataSourceSqlAcarreos" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="${jdbc.sql.driver.class.name}" />
+		<property name="jdbcUrl" value="${jdbc.sql.acarreos.url}" />
+		<property name="user" value="${jdbc.sql.username}" />
+		<property name="password" value="${jdbc.sql.password}" />
+		<property name="acquireIncrement" value="1" />
+		<property name="acquireRetryAttempts" value="3" />
+		<property name="acquireRetryDelay" value="300" />
+		<property name="initialPoolSize" value="5" />
+		<property name="maxPoolSize" value="15" />
+		<property name="minPoolSize" value="4" />
+	</bean>
+	
+
+	<bean id="hibernateSessionAcarreos"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceSqlAcarreos" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosPuntos</value>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosPuntosPorObra</value>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosPuntosDistancias</value>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosUsuarios</value>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosUsuariosSincronizaciones</value>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosMateriales</value>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosMaterialesPorPunto</value>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosBoletos</value>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosBoletosReimpresiones</value>
+				<value>com.mx.vise.xpl2.acarreos.model.AcarreosLlaves</value>
+				
+				
+			</list>
+			
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="org.hibernate.transaction">true</prop>
+			</props>
+		</property>
+	</bean>
+	<tx:annotation-driven transaction-manager="transactionManagerAcarreos" />
+	<bean id="transactionManagerAcarreos"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="hibernateSessionAcarreos"></property>
+	</bean>
+	<!-- FIN SQL CONNECTION a vise-xpl2 acarreos -->
+	
+	<!-- conexion a navision -->
+	<bean id="dataSourceNavision" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="${jdbc.sql.sq8.siv.driver.class.name}" />
+		<property name="jdbcUrl" value="${jdbc.sql.sq8.siv.url}" />
+		<property name="user" value="${jdbc.sql.sq8.siv.username}" />
+		<property name="password" value="${jdbc.sql.sq8.siv.password}" />
+		<property name="acquireIncrement" value="1" />
+		<property name="acquireRetryAttempts" value="3" />
+		<property name="acquireRetryDelay" value="300" />
+		<property name="initialPoolSize" value="5" />
+		<property name="maxPoolSize" value="15" />
+		<property name="minPoolSize" value="4" />
+	</bean>
+
+	<bean id="hib4AnnSesFacNavision"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceNavision" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.mx.vise.sq8.siv.model.VISEItem</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">${jdbc.sql.sq8.siv.dialect}</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="org.hibernate.transaction">true</prop>
+			</props>
+		</property>
+	</bean>
+	<tx:annotation-driven transaction-manager="transactionManagerNavision" />
+	<bean id="transactionManagerNavision"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="hib4AnnSesFacNavision"></property>
+	</bean>
+	<!-- fin de la conexion del sq8-navision -->
+		<!-- SQL CONECTION coneccion al vise-xpl2 sistemas -->
+	<bean id="dataSourceSqlUsuario" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass" value="${jdbc.sql.driver.class.name}" />
+		<property name="jdbcUrl" value="${jdbc.sql.usuario.url}" />
+		<property name="user" value="${jdbc.sql.username}" />
+		<property name="password" value="${jdbc.sql.password}" />
+		<property name="acquireIncrement" value="1" />
+		<property name="acquireRetryAttempts" value="3" />
+		<property name="acquireRetryDelay" value="300" />
+		<property name="initialPoolSize" value="1" />
+		<property name="maxPoolSize" value="500" />
+		<property name="minPoolSize" value="1" />
+		<property name="testConnectionOnCheckin" value="true" />
+		<property name="idleConnectionTestPeriod" value="180"/>
+        <property name="preferredTestQuery" value="SELECT 1"/>
+	</bean>
+
+	<bean id="hib4AnnSesFacSqlUsuario"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceSqlUsuario" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.mx.vise.xpl2.usuario.model.UserExt</value>
+				<value>com.mx.vise.xpl2.usuario.model.NasusEmpleados</value>
+				<value>com.mx.vise.xpl2.usuario.model.EflowMovilUsuarios</value>
+				<value>com.mx.vise.xpl2.usuario.model.SnEflow</value>
+				
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="org.hibernate.transaction">true</prop>
+			</props>
+		</property>
+	</bean>
+
+
+	<tx:annotation-driven transaction-manager="transactionManagerUsuario" />
+	<bean id="transactionManagerUsuario"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="hib4AnnSesFacSqlUsuario"></property>
+	</bean>
+	
+</beans>

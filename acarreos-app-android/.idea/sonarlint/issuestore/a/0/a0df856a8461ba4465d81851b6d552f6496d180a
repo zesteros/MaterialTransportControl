@@ -1,0 +1,12 @@
+
+fsquid:UselessImportCheck"BRemove this unused import 'net.sqlcipher.database.SQLiteDatabase'.(ÌùŠ¢
+[squid:UselessImportCheck"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ
+Xsquid:S2094"BRemove this empty class, write its code or make it an "interface".(ì³C
+bsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(„¸µ—
+gsquid:CommentedOutCodeLine-"<This block of commented-out lines of code should be removed.(¼è÷ïøÿÿÿÿ
+gsquid:CommentedOutCodeLine1"<This block of commented-out lines of code should be removed.(“·ùÒúÿÿÿÿ
+bsquid:CommentedOutCodeLine4"<This block of commented-out lines of code should be removed.(ˆ„ˆ™
+gsquid:CommentedOutCodeLine6"<This block of commented-out lines of code should be removed.(•ı¡Şüÿÿÿÿ
+gsquid:CommentedOutCodeLine9"<This block of commented-out lines of code should be removed.(ı¢‹Çûÿÿÿÿ
+bsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(şÿäÁ
+gsquid:CommentedOutCodeLineI"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ

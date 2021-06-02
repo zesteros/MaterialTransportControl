@@ -1,0 +1,106 @@
+
+jsquid:S1301®
+"KReplace this "switch" statement by "if" statements to increase readability.(ÁÌÏ‡8ƒâ¨ÊØ-
+Tsquid:S2696Ç"6Make the enclosing method "static" or remove this set.(¿’»<8ƒâ¨ÊØ-
+Gsquid:S1481Â"(Remove this unused "uri" local variable.(¯Æ‹À8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(àÈ­ÿÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(–¸Ö‰úÿÿÿÿ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLine‰"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+isquid:CommentedOutCodeLine€
+"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+ysquid:S00115|"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È“Œ©8ƒâ¨ÊØ-
+Zsquid:S2696Ä"6Make the enclosing method "static" or remove this set.(ªëµŒûÿÿÿÿ8ƒâ¨ÊØ-
+Nsquid:S2093"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ƒâ¨ÊØ-
+Ysquid:S1141¨"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8ƒâ¨ÊØ-
+rsquid:S00115|"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È“Œ©
+‹squid:UselessImportCheck@"[Remove this unused import 'com.mx.vise.nfc.mifareclassic.Preferences.Preference.UIDFormat'.(Î¸®Ìûÿÿÿÿ8ƒâ¨ÊØ-
+Vsquid:S1197Á"8Move the array designator from the variable to the type.(ÕĞ½38ƒâ¨ÊØ-
+ysquid:S00115|"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È“Œ©8ƒâ¨ÊØ-
+rsquid:S00115|"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È“Œ©
+zsquid:S3923Ğ"[Remove this conditional structure or edit its code blocks so that they're not all the same.(¾Àò§8ƒâ¨ÊØ-
+Jsquid:S1172¾"&Remove these unused method parameters.(Ğ«şÿÿÿÿ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineì"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+osquid:CommentedOutCodeLine»"<This block of commented-out lines of code should be removed.(Îèôèøÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineÈ"<This block of commented-out lines of code should be removed.(Îèôèøÿÿÿÿ8ƒâ¨ÊØ-
+ysquid:S00115|"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È“Œ©8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLine
+"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineğ"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+`squid:S1126â"AReplace this if-then-else statement by a single return statement.(Å›ş8ƒâ¨ÊØ-
+Msquid:S1172÷".Remove this unused method parameter "context".(Ëàâ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineˆ
+"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+rsquid:S00115|"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È“Œ©
+`squid:S1075‹"ARefactor your code to get this URI from a customizable parameter.(£ûÖ¸8ƒâ¨ÊØ-
+Esquid:S1168¯"&Return an empty array instead of null.(¥¹ï8ƒâ¨ÊØ-
+qsquid:S3776¨"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(¾÷‘8ƒâ¨ÊØ-
+Wsquid:S1172ş"3Remove this unused method parameter "relativePath".(çôÒ£ıÿÿÿÿ8ƒâ¨ÊØ-
+Esquid:S1168µ"&Return an empty array instead of null.(¥¹ï8ƒâ¨ÊØ-
+`squid:S1075ù"ARefactor your code to get this URI from a customizable parameter.(ñÇ™œ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLine®"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+osquid:CommentedOutCodeLine÷"<This block of commented-out lines of code should be removed.(ÌõåŠûÿÿÿÿ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineå"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineı"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+Msquid:S1172á".Remove this unused method parameter "context".(³–8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineÏ"<This block of commented-out lines of code should be removed.(«äô§ûÿÿÿÿ8ƒâ¨ÊØ-
+jsquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(èùˆÉ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineİ"<This block of commented-out lines of code should be removed.(şÌ68ƒâ¨ÊØ-
+`squid:S1075‚"ARefactor your code to get this URI from a customizable parameter.(ûâ„ş8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(¨¨˜şÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineÆ"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLine–"<This block of commented-out lines of code should be removed.(Îèôèøÿÿÿÿ8ƒâ¨ÊØ-
+\squid:S1197š"8Move the array designator from the variable to the type.(Ò€ğéøÿÿÿÿ8ƒâ¨ÊØ-
+X"squid:SwitchLastCaseIsDefaultCheck®
+""Add a default case to this switch.(ÁÌÏ‡8ƒâ¨ÊØ-
+jsquid:CommentedOutCodeLineø	"<This block of commented-out lines of code should be removed.(šğç¾8ƒâ¨ÊØ-
+€squid:S1488ÿ"\Immediately return this expression instead of assigning it to the temporary variable "file".(Ë»¡™øÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineè"<This block of commented-out lines of code should be removed.(åºË±ûÿÿÿÿ8ƒâ¨ÊØ-
+]squid:S1155³">Use isEmpty() to check whether the collection is empty or not.(£²»è8ƒâ¨ÊØ-
+Msquid:S1172š".Remove this unused method parameter "context".(³–8ƒâ¨ÊØ-
+X"squid:SwitchLastCaseIsDefaultCheck£""Add a default case to this switch.(À’‚ 8şâµËØ-
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+osquid:CommentedOutCodeLine–	"<This block of commented-out lines of code should be removed.(ıëŒõûÿÿÿÿ8ƒâ¨ÊØ-
+Msquid:S1172Ğ".Remove this unused method parameter "context".(áŸš8ƒâ¨ÊØ-
+~squid:S00115}"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ’ºÏüÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineõ"<This block of commented-out lines of code should be removed.(åºË±ûÿÿÿÿ8ƒâ¨ÊØ-
+jsquid:CommentedOutCodeLineÚ"<This block of commented-out lines of code should be removed.(ÇşŒì8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineù"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+osquid:CommentedOutCodeLine´"<This block of commented-out lines of code should be removed.(ñ²ĞŠûÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineÖ"<This block of commented-out lines of code should be removed.( õí¢úÿÿÿÿ8ƒâ¨ÊØ-
+Nsquid:S2696Ã"6Make the enclosing method "static" or remove this set.(¸¹½è
+esquid:S1126ş"AReplace this if-then-else statement by a single return statement.(„ğğ¥øÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(Û™øøÿÿÿÿ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineû"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+jsquid:CommentedOutCodeLine„"<This block of commented-out lines of code should be removed.(¾àÏ8ƒâ¨ÊØ-
+w
+squid:S135¿	"YReduce the total number of break and continue statements in this loop to use at most one.(•Ê‚’8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineà"<This block of commented-out lines of code should be removed.(¡»¢üùÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineË"<This block of commented-out lines of code should be removed.(‘½Éùûÿÿÿÿ8ƒâ¨ÊØ-
+~squid:S00115}"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ’ºÏüÿÿÿÿ8ƒâ¨ÊØ-
+squid:UselessImportCheck?"]Remove this unused import 'com.mx.vise.nfc.mifareclassic.Preferences.Preference.AutoCopyUID'.(ß€Ô 
+Esquid:S1168Æ"&Return an empty array instead of null.(¥¹ï8ƒâ¨ÊØ-
+jsquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(Öü·ı8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineŒ
+"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+jsquid:CommentedOutCodeLineÅ"<This block of commented-out lines of code should be removed.(Ø¡ó8ƒâ¨ÊØ-
+ysquid:S00115|"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(È“Œ©8ƒâ¨ÊØ-
+Ssquid:S1066˜	"/Merge this if statement with the enclosing one.(˜ã£Ïıÿÿÿÿ8ƒâ¨ÊØ-
+Nsquid:S2093µ"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineä"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+esquid:S1871½"MThis branch's code block is the same as the block for the branch on line 930.(†‘
+osquid:CommentedOutCodeLineê"<This block of commented-out lines of code should be removed.(Åæ„½ùÿÿÿÿ8ƒâ¨ÊØ-
+¦%squid:RedundantThrowsDeclarationCheck"mRemove the declaration of thrown exception 'java.lang.IllegalArgumentException' which is a runtime exception.(œ“â8ƒâ¨ÊØ-
+vsquid:S3776·	"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(’ìÁÍøÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(‰˜»…ıÿÿÿÿ8ƒâ¨ÊØ-
+qsquid:S3776™"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(‘»‰Ú8ƒâ¨ÊØ-
+jsquid:CommentedOutCodeLine±"<This block of commented-out lines of code should be removed.(–Îş‚8ƒâ¨ÊØ-
+jsquid:CommentedOutCodeLine·"<This block of commented-out lines of code should be removed.(Ö¯ŞÍ8ƒâ¨ÊØ-
+jsquid:CommentedOutCodeLine‚"<This block of commented-out lines of code should be removed.(µ¥¦İ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLineü	"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+isquid:CommentedOutCodeLine	"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+~squid:S00115}"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Œ’ºÏüÿÿÿÿ8ƒâ¨ÊØ-
+osquid:CommentedOutCodeLineÓ"<This block of commented-out lines of code should be removed.(¾Á¨ùÿÿÿÿ8ƒâ¨ÊØ-
+isquid:CommentedOutCodeLine„
+"<This block of commented-out lines of code should be removed.(ë­£78ƒâ¨ÊØ-
+Esquid:S1168Ê"&Return an empty array instead of null.(¥¹ï8ƒâ¨ÊØ-
+rsquid:S3776ş"SRefactor this method to reduce its Cognitive Complexity from 124 to the 15 allowed.(óÃİ«8ƒâ¨ÊØ-

@@ -1,0 +1,14 @@
+
+Fsquid:S1172l"/Remove this unused method parameter "syncData".(É˜î¦
+usquid:S2293V"YReplace the type specification in this constructor call with the diamond operator ("<>").(ó÷Šûÿÿÿÿ
+?squid:S1148L"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Fsquid:S1172"/Remove this unused method parameter "syncData".(ÌˆÄ
+Zsquid:S1155s">Use isEmpty() to check whether the collection is empty or not.(´ÆÙµùÿÿÿÿ
+Ksquid:S1172}"/Remove this unused method parameter "syncData".(÷‰—ùÿÿÿÿ
+?squid:S11487"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+’squid:S1319}"vThe type of the "updatedKeys" object should be an interface such as "List" rather than the implementation "ArrayList".(÷‰—ùÿÿÿÿ
+‰squid:S1319l"rThe type of the "newKeys" object should be an interface such as "List" rather than the implementation "ArrayList".(É˜î¦
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(úòò¹ıÿÿÿÿ
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+psquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ù·Èü
+Csquid:S1068"'Remove this unused "TAG" private field.(ÜóÛÓüÿÿÿÿ

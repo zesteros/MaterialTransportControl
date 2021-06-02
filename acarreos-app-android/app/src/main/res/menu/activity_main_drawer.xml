@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/footer_spacer_1"
+        android:checkable="false"
+        android:enabled="false"
+        android:orderInCategory="200"
+        android:title="" />
+    <item
+        android:id="@+id/footer_spacer_2"
+        android:checkable="false"
+        android:enabled="false"
+        android:orderInCategory="200"
+        android:title="" />
+    <!--
+        <group android:checkableBehavior="single">
+            <item android:title="Control Interno">
+                <menu>
+                    <item
+                        android:id="@+id/nav_camera"
+                        android:icon="@drawable/ic_carries"
+                        android:title="Cubicaciones" />
+                    <item
+                        android:id="@+id/nav_gallery"
+                        android:icon="@drawable/ic_fuel"
+                        android:title="Combustible" />
+                </menu>
+            </item>
+           <item
+                 android:id="@+id/nav_slideshow"
+                 android:icon="@drawable/ic_menu_slideshow"
+                 android:title="Slideshow" />
+             <item
+                 android:id="@+id/nav_manage"
+                 android:icon="@drawable/ic_menu_manage"
+                 android:title="Tools" />
+        </group>
+
+        <item android:title="Capital Humano">
+            <menu>
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_fingerprint"
+                    android:title="Checador" />
+            </menu>
+        </item>-->
+
+</menu>

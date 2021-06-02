@@ -1,0 +1,49 @@
+
+3squid:S1643€"Use a StringBuilder instead.(·Ü‘`
+4squid:S1643"Use a StringBuilder instead.(¯ò¤¢
+9squid:S1643Ÿ"Use a StringBuilder instead.(‡¼ñ½øÿÿÿÿ
+9squid:S1643¥"Use a StringBuilder instead.(‡¼ñ½øÿÿÿÿ
+9squid:S1643°"Use a StringBuilder instead.(±÷Æâûÿÿÿÿ
+3squid:S1643±"Use a StringBuilder instead.(‹Æ0
+9squid:S1643³"Use a StringBuilder instead.(˜ áœùÿÿÿÿ
+3squid:S1643»"Use a StringBuilder instead.(çã·D
+9squid:S1643Ä"Use a StringBuilder instead.(›”µÍÿÿÿÿÿ
+4squid:S1643É"Use a StringBuilder instead.(¾Ù
+^squid:S1192€"GDefine a constant instead of duplicating this literal "^A0,N," 5 times.(·Ü‘`
+Gsquid:S1444"0Make this "public static SPACE_LINE" field final(å·º¾
+Lsquid:S1444"0Make this "public static START_LINE" field final(ŠøÌòÿÿÿÿÿ
+Rsquid:S1444!"6Make this "public static TITLE_SPACE_LINE" field final(ø±¬™úÿÿÿÿ
+Msquid:S1444#"1Make this "public static LABEL_WIDTH" field final(®Éµõüÿÿÿÿ
+Tsquid:S1444%"8Make this "public static TITLE_X_ADJUSTMENT" field final(âúúÛÿÿÿÿÿ
+Tsquid:S1444'"8Make this "public static TITLE_Y_ADJUSTMENT" field final(ÿÄ˜¼şÿÿÿÿ
+Lsquid:S1444)"5Make this "public static TITLE_FONT_SIZE" field final(òçç™
+Tsquid:S1444*"8Make this "public static SUBTITLE_FONT_SIZE" field final(ĞÕÌÎÿÿÿÿÿ
+Ksquid:S1444+"/Make this "public static TEXT_SIZE" field final(ÏªÚøÿÿÿÿÿ
+t
+squid:S135x"YReduce the total number of break and continue statements in this loop to use at most one.(Ì›°úûÿÿÿÿ
+‡squid:S13192"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Õ›øÕ
+“squid:S1319f"wThe type of the "printObjects" object should be an interface such as "List" rather than the implementation "ArrayList".(£‘Ïıûÿÿÿÿ
+„"squid:ClassVariableVisibilityCheck"VMake SPACE_LINE a static final constant or non-public and provide accessors if needed.(å·º¾
+‰"squid:ClassVariableVisibilityCheck"VMake START_LINE a static final constant or non-public and provide accessors if needed.(ŠøÌòÿÿÿÿÿ
+"squid:ClassVariableVisibilityCheck!"\Make TITLE_SPACE_LINE a static final constant or non-public and provide accessors if needed.(ø±¬™úÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck#"WMake LABEL_WIDTH a static final constant or non-public and provide accessors if needed.(®Éµõüÿÿÿÿ
+‘"squid:ClassVariableVisibilityCheck%"^Make TITLE_X_ADJUSTMENT a static final constant or non-public and provide accessors if needed.(âúúÛÿÿÿÿÿ
+‘"squid:ClassVariableVisibilityCheck'"^Make TITLE_Y_ADJUSTMENT a static final constant or non-public and provide accessors if needed.(ÿÄ˜¼şÿÿÿÿ
+‰"squid:ClassVariableVisibilityCheck)"[Make TITLE_FONT_SIZE a static final constant or non-public and provide accessors if needed.(òçç™
+‘"squid:ClassVariableVisibilityCheck*"^Make SUBTITLE_FONT_SIZE a static final constant or non-public and provide accessors if needed.(ĞÕÌÎÿÿÿÿÿ
+ˆ"squid:ClassVariableVisibilityCheck+"UMake TEXT_SIZE a static final constant or non-public and provide accessors if needed.(ÏªÚøÿÿÿÿÿ
+?squid:S1148Q"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+lsquid:S3008"URename this field "SPACE_LINE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(å·º¾
+qsquid:S3008"URename this field "START_LINE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŠøÌòÿÿÿÿÿ
+wsquid:S3008!"[Rename this field "TITLE_SPACE_LINE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø±¬™úÿÿÿÿ
+rsquid:S3008#"VRename this field "LABEL_WIDTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®Éµõüÿÿÿÿ
+ysquid:S3008%"]Rename this field "TITLE_X_ADJUSTMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âúúÛÿÿÿÿÿ
+ysquid:S3008'"]Rename this field "TITLE_Y_ADJUSTMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÄ˜¼şÿÿÿÿ
+qsquid:S3008)"ZRename this field "TITLE_FONT_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òçç™
+ysquid:S3008*"]Rename this field "SUBTITLE_FONT_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ĞÕÌÎÿÿÿÿÿ
+psquid:S3008+"TRename this field "TEXT_SIZE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÏªÚøÿÿÿÿÿ
+nsquid:S3776f"RRefactor this method to reduce its Cognitive Complexity from 60 to the 15 allowed.(£‘Ïıûÿÿÿÿ
+Msquid:S2696h"6Make the enclosing method "static" or remove this set.(üä©‡
+†"squid:SwitchLastCaseIsDefaultCheckz"YComplete cases by adding the missing enum constants or add a default case to this switch.(ü£/
+[squid:S3358Ê"DExtract this nested ternary operation into an independent statement.(«
+asquid:S3358Ë"DExtract this nested ternary operation into an independent statement.(‹éÚşÿÿÿÿ

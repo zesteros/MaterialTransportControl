@@ -1,0 +1,257 @@
+<resources>
+    <string name="app_name">Acarreos VISE</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Configuración</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Alta de puntos</string>
+    <string name="write_point_name">Ingresa el nombre del punto</string>
+    <string name="select_influency_radio">Selecciona un radio de influencia</string>
+    <string name="write_chainage">Escribe el cadenamiento</string>
+    <string name="toast_press_again_to_exit">Presiona de nuevo la tecla ATRÁS para regresar a Eflow</string>
+    <string name="save_point_successfull">Punto guardado correctamente.</string>
+    <string name="something_went_wrong_saving_point">Ocurrió un error al agregar el punto.</string>
+    <string name="bank_already_exists">Lo sentimos, el banco \"%\" ya existe.</string>
+    <string name="title_activity_settings">Configuración</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Sincronización con Eflow</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="printer_name">printer_name</string>
+    <string name="printer_established">Impresora establecida</string>
+    <string name="printer_mac">printer_mac</string>
+    <string name="printer_established_actually">Impresora establecida actualmente: %</string>
+    <string name="selected_printer_key">selected_printer</string>
+    <string name="pref_title_sync_now">Sincronizar ahora</string>
+    <string name="sync_now_key">sync_now</string>
+    <string name="pref_title_search_printer">Establecer impresora</string>
+    <string name="pref_header_printer">Configuración de impresora</string>
+    <string name="update_now_key">update_now_key</string>
+    <string name="pref_title_update_now">Actualizar ahora</string>
+    <string name="pref_header_update">Actualización de la aplicación</string>
+    <string name="read_tag">LEER TAG</string>
+    <string name="error_happened_writing">Ocurrió un error al leer</string>
+    <string name="write_tag_royalties">Escribir datos en tag</string>
+    <string name="set_discount">Ingresa descuento</string>
+    <string name="tag_validation">VALIDACIÓN DE TAG</string>
+    <string name="validating_tag">Validando tag...</string>
+    <string name="tag_read">Lectura de tag</string>
+    <string name="reading_tag">Leyendo tag...</string>
+    <string name="tag_read_timeout">Tiempo de espera de lectura de tag agotado.</string>
+    <string name="write_tag_timeout">Tiempo de espera de escritura en tag terminado.</string>
+    <string name="something_went_wrong_writing">Ocurrió un error al escribir los datos en el tag</string>
+    <string name="tag_successfully_writed">Tag escrito correctamente</string>
+    <string name="ticket_printed">Boleto impreso</string>
+    <string name="print_ticket">IMPRIMIR BOLETO</string>
+    <string name="ticket_successfully_saved">Boleto guardado exitosamente.</string>
+    <string name="something_went_wrong_saving_royalty">Ha ocurrido un error al guardar los datos, por favor, intente de nuevo.</string>
+    <string name="saving_ticket">Guardando boleto</string>
+    <string name="wait_please">Espere por favor...</string>
+    <string name="set_tons">Ingresa toneladas</string>
+    <string name="print_does_not_configured">No se ha configurado una impresora</string>
+    <string name="cannot_communicate_with_printer">No se puede comunicar con la impresora</string>
+    <string name="invalid_tag_with_info">La información del tag no corresponde al tipo de boleto solicitado.</string>
+    <string name="yes">Sí</string>
+    <string name="information_is_correct">¿La información es correcta?</string>
+    <string name="print_again">No, imprimir nuevamente</string>
+    <string name="did_not_captured_a_tag">No se ha capturado un tag</string>
+    <string name="read_tag_sucess">Tag leído correctamente</string>
+    <string name="set_distance">Ingresa distancia</string>
+    <string name="info_in_tag_is_invalid">La información en el tag esta dañada.</string>
+    <string name="points_register">Alta de puntos</string>
+    <string name="royalties">Regalías</string>
+    <string name="road_improvement">Mejora de caminos</string>
+    <string name="carries">Acarreos</string>
+    <string name="did_not_count_with_permissions">Lo sentimos, no cuentas con ningún tipo de permiso para los módulos de este sistema, por favor acude con personal de Control Interno o T.I. para que se te asignen y vuelve a iniciar sesión.</string>
+    <string name="supplies">Suministros de material</string>
+    <string name="free_carry">Desperdicio</string>
+    <string name="intern_carry">Acarreo interno</string>
+    <string name="material_request">Solicitud de material</string>
+    <string name="tag_is_not_valid">Lo sentimos, el tag no está registrado o fue dado de baja.</string>
+    <string name="error_happened">Ocurrió un error al procesar el tag</string>
+    <string name="no_data_available_title">No hay % disponibles</string>
+    <string name="no_data_available_message">No se encontraron % disponibles para este punto, solicita a tu coordinador de acarreos que dé de alta % y posteriormente sincroniza la terminal.</string>
+    <string name="obtaining_distances">Obteniendo distancias</string>
+    <string name="registering_reprint">Registrando reimpresión</string>
+    <string name="captured_tag">Tag capturado</string>
+    <string name="ticket_was_not_printed">No se ha impreso el boleto</string>
+    <string name="open_tag_reader">Abriendo lector de tags, por favor espere...</string>
+    <string name="tag_reader">Lector de tags</string>
+    <string name="rebooting_reader">Reiniciando lector de tags, por favor espere...</string>
+    <string name="distance">distancias</string>
+    <string name="materials">materiales</string>
+    <string name="materials_and_distances">distancias y/o materiales</string>
+    <string name="tag_gps_reader">GPS/UHF</string>
+    <string name="open_tag_gps_reader">Buscando señal de GPS...</string>
+    <string name="last_location">Ubicación actual: %</string>
+    <string name="tag_already_carried">Error: tag sin folio de salida</string>
+    <string name="configure_tag">Leer tag</string>
+    <string name="with_cubage_data">CUBICACIÓN</string>
+    <string name="with_royalty_data">REGALÍA/MEJORA DE CAMINOS</string>
+    <string name="tag_id">ID DE TAG</string>
+    <string name="tid">TID:</string>
+    <string name="epc">EPC:</string>
+    <string name="type">TIPO</string>
+    <string name="tag">TAG:</string>
+    <string name="building">OBRA</string>
+    <string name="number">NO.</string>
+    <string name="license_plate">PLACAS</string>
+    <string name="rear_license_plate">PLACA TRASERA:</string>
+    <string name="capacity">CAPACIDAD</string>
+    <string name="volume">VOLUMEN:</string>
+    <string name="increase_title">MONTÉN</string>
+    <string name="increase">AUMENTO:</string>
+    <string name="sheet_number">FOLIO</string>
+    <string name="id_navision">ID NAVISION:</string>
+    <string name="material">MATERIAL</string>
+    <string name="description">DESCRIPCIÓN:</string>
+    <string name="origin">ORIGEN</string>
+    <string name="name">NOMBRE:</string>
+    <string name="chainage">CADENAMIENTO:</string>
+    <string name="exit_date">FECHA DE SALIDA</string>
+    <string name="date">FECHA:</string>
+    <string name="time">HORA:</string>
+    <string name="bank_user">USUARIO CHECADOR</string>
+    <string name="id_eflow">ID EFLOW:</string>
+    <string name="exit_coordinates">COORDENADAS DE SALIDA</string>
+    <string name="latitude">LATITUD:</string>
+    <string name="longitude">LONGITUD:</string>
+    <string name="cannot_obtain_tag_data">Imposible obtener información del tag, intente nuevamente.</string>
+    <string name="tag_contains_info">Lo sentimos, el tag no contiene información.</string>
+    <string name="communication_error">Ocurrió un error de comunicación con el tag, intente nuevamente.</string>
+    <string name="sure_to_erase_data_in_tag_message">¿Estás seguro(a) de reestablecer el tag?\nQuedará como virgen y se perderán los datos escritos en él y no se podrán recuperar, además de que no se podrán generar regalías ni acarreos hasta que se recubique.</string>
+    <string name="confirm_reestablish_tag">Confirmar reestablecimiento</string>
+    <string name="configure_tag_access">Acceso a configuración de tag</string>
+    <string name="configure_tag_message_dialog">Introduce tus datos de sesión</string>
+    <string name="set_user">Ingresa tu usuario</string>
+    <string name="set_password">Ingresa tu contraseña</string>
+    <string name="missing_configure_tag_permissions">No tienes permisos para configurar los tags</string>
+    <string name="generated_tag">Tag generado</string>
+    <string name="no_building">No tienes obra asignada</string>
+    <string name="no_building_msg">No tiene una obra asignada, favor de acudir con su coordinador de acarreos para que le asigne una obra de su superintendente. Si ya se la asignaron, cierre sesión e intente de nuevo.</string>
+    <string name="no_permissions">No cuentas con permisos</string>
+    <string name="view_tag_data">VER DATOS DE TAG</string>
+    <string name="reestablish_tag">REESTABLECER TAG</string>
+    <string name="tag_does_not_correspond">La regalía escrita en el tag no corresponde a tu obra (viene de la obra %)</string>
+    <string name="wrong_building">Obra errónea</string>
+    <string name="origin_without_distances">Banco origen sin distancias</string>
+    <string name="origin_without_distances_message">El banco de origen \"%\" no tiene distancias asignadas, favor de solicitarlas a su coordinador de acarreos y sincronizar la terminal.</string>
+    <string name="select_distance">Selecciona una distancia</string>
+    <string name="cancel_ticket">Cancelar boleto</string>
+    <string name="exit">Regresar a Eflow Móvil</string>
+    <string name="loading_banks">Cargando bancos</string>
+    <string name="generate_free_carry_ticket">Generar boleto desperdicio</string>
+    <string name="generate_intern_carry_ticket">Generar boleto acarreo interno</string>
+    <string name="select_an_option">Selecciona una opción</string>
+    <string name="select_a">Selecciona un %</string>
+    <string name="bank">banco</string>
+    <string name="drop">tiro</string>
+    <string name="loading_throws">Cargando tiros</string>
+    <string name="generate_royalty_ticket">Generar boleto de regalía</string>
+    <string name="generate_road_improvement_ticket">Generar boleto de mejora de caminos</string>
+    <string name="generate_carry_ticket">Generar boleto de acarreos</string>
+    <string name="generate_supply_ticket">Generar boleto de suministros</string>
+    <string name="generate_request_ticket">Generar boleto solicitud</string>
+    <string name="obtaining_material">Obteniendo material</string>
+    <string name="ticket_already_canceled">Lo sentimos, el folio ya fue cancelado.</string>
+    <string name="ticket_canceled_successfully">Boleto cancelado exitosamente</string>
+    <string name="cancel_ticket_message">¿Estas seguro(a) de cancelar el boleto con número de folio % ?</string>
+    <string name="uploading_tickets">Subiendo boletos, por favor espere...</string>
+    <string name="syncing_data">Sincronizando datos...</string>
+    <string name="uploading_points">Subiendo puntos, por favor espere...</string>
+    <string name="ticket_does_not_exist">Lo sentimos, el folio no existe o no fue registrado por esta terminal.</string>
+    <string name="app_version">Versión de app: %</string>
+    <string name="virgin_tag_detected">El tag no contiene información.</string>
+    <string name="writing_tag">Escribiendo tag.. por favor no mueva el tag de su posición.</string>
+    <string name="point_name">Nombre del punto</string>
+    <string name="waste">banco de desperdicio</string>
+    <string name="no_material_selected">No se seleccionó ningún material.</string>
+    <string name="uknown_keys_message">No se pudo leer el tag, intente nuevamente moviéndolo por el lector.</string>
+    <string name="empty_tag_message">Lo sentimos, el tag está vacío.</string>
+    <string name="tag_removed_while_reading_message">Tag removido mientras se leia</string>
+    <string name="tag_removed_or_wrong_key">Tag removido mientras se leia o alguna llave errónea.</string>
+    <string name="tag_data_corrupted">Datos del tag inválidos.</string>
+    <string name="there_is_no_valid_key_message">No hay llaves válidas.</string>
+    <string name="data_in_tag">DATOS EN TAG</string>
+    <string name="data">Datos</string>
+    <string name="no_imei_match">Dispositivo no reconocido</string>
+    <string name="request_register">Solicitar registro</string>
+    <string name="requested_success">Solicitud exitosa</string>
+    <string name="requested_success_msg">Solicitud enviada correctamente, favor de contactar al departamento de control interno para que aprueben su solicitud. Si ya ha sido aprobada su solicitud, cierre e inicie su sesión nuevamente.</string>
+    <string name="requested_failed">Solicitud fallida</string>
+    <string name="request_failed_msg">Ocurrio un error al enviar la solicitud (%)</string>
+    <string name="no_imei_match_null">Eflow Móvil desactualizado</string>
+    <string name="no_imei_match_msg_null">Favor de actualizar la aplicación de Eflow Móvil, cerrar e iniciar sesión.</string>
+</resources>

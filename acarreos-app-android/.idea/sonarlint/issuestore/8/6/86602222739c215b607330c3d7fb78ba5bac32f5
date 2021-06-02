@@ -1,0 +1,51 @@
+
+jsquid:CommentedOutCodeLineÁ"<This block of commented-out lines of code should be removed.(û¬Ó8î˜ñÓİ-
+Qsquid:S1135Ë"2Complete the task associated to this TODO comment.(–ğÏÏ8ÜÜËØ-
+osquid:CommentedOutCodeLineë"<This block of commented-out lines of code should be removed.(±Îäûùÿÿÿÿ8¾áñÓİ-
+Gsquid:S1148”
+"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¸ ½ÆÚ-
+"squid:SwitchLastCaseIsDefaultCheckÖ"YComplete cases by adding the missing enum constants or add a default case to this switch.(äãÆÆ8±à‰™Ù-
+osquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±Îäûùÿÿÿÿ8·÷ñÓİ-
+nsquid:S1871ÿ
+"JThis case's code block is the same as the block for the case on line 1401.(İ–Ò˜ÿÿÿÿÿ8æÒ¹ÅÚ-
+osquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(±Îäûùÿÿÿÿ8–¸òÓİ-
+osquid:CommentedOutCodeLineÖ"<This block of commented-out lines of code should be removed.(ÜğÁÿÿÿÿÿ8Ü¶ñÓİ-
+Gsquid:S1148—"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8â×·ÈÙ-
+"squid:SwitchLastCaseIsDefaultCheck´
+"YComplete cases by adding the missing enum constants or add a default case to this switch.(äãÆÆ8æÒ¹ÅÚ-
+Gsquid:S1148Ü"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æÒ¹ÅÚ-
+"squid:SwitchLastCaseIsDefaultCheckÏ"YComplete cases by adding the missing enum constants or add a default case to this switch.(äãÆÆ8æÒ¹ÅÚ-
+\squid:UselessImportCheck"1Remove this unused import 'android.os.AsyncTask'.(À»¥—8ı€ÆÅÚ-
+¥squid:S1186Ó"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×şÿÿÿÿ8Ó§Ü–Ù-
+Nsquid:S1066¯"/Merge this if statement with the enclosing one.(Ûøø€8±à‰™Ù-
+jsquid:S1301¿"KReplace this "switch" statement by "if" statements to increase readability.(äãÆÆ8â×·ÈÙ-
+|squid:S1450g"YRemove the "mMainLabel" field and declare it as a local variable in the relevant methods.(ãŒòûÿÿÿÿ8Òº¢şÖ-
+Ssquid:S1066ï
+"/Merge this if statement with the enclosing one.(ò®¡¯şÿÿÿÿ8æÒ¹ÅÚ-
+]"squid:SwitchLastCaseIsDefaultCheck©""Add a default case to this switch.(²‹›Øüÿÿÿÿ8æÒ¹ÅÚ-
+"squid:SwitchLastCaseIsDefaultCheck¿"YComplete cases by adding the missing enum constants or add a default case to this switch.(äãÆÆ8â×·ÈÙ-
+…squid:UselessImportCheckO"URemove this unused import 'com.mx.vise.acarreos.tasks.LocationThread.ALL_POINT_TYPE'.(íäúÄøÿÿÿÿ8ê·İÅÚ-
+jsquid:CommentedOutCodeLineÃ"<This block of commented-out lines of code should be removed.(­¹¥•8“¨ËîØ-
+zsquid:UselessImportCheck,"JRemove this unused import 'com.mx.vise.acarreos.tasks.OnOperationRunning'.(Œïò¸ıÿÿÿÿ8ı€ÆÅÚ-
+squid:UselessImportCheck>"QRemove this unused import 'com.mx.vise.zebraprinterandroid.entities.PrintObject'.(œàñãøÿÿÿÿ8ı€ÆÅÚ-
+\squid:UselessImportCheck"1Remove this unused import 'com.google.gson.Gson'.(–§8·šÆÚ-
+Gsquid:S1148ƒ	"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æÒ¹ÅÚ-
+|squid:S1450n"^Remove the "mOriginTextView" field and declare it as a local variable in the relevant methods.(Ïù×ä8Òº¢şÖ-
+Gsquid:S1148¸	"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8æÒ¹ÅÚ-
+psquid:S3776©"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(á³Ÿe8±à‰™Ù-
+osquid:CommentedOutCodeLineÒ	"<This block of commented-out lines of code should be removed.(×åªËÿÿÿÿÿ8æÒ¹ÅÚ-
+jsquid:CommentedOutCodeLine¿
+"<This block of commented-out lines of code should be removed.(«•Ç»8æÒ¹ÅÚ-
+€squid:S1488å	"\Immediately return this expression instead of assigning it to the temporary variable "data".(ä½¶Ìüÿÿÿÿ8æÒ¹ÅÚ-
+Nsquid:S1066€"/Merge this if statement with the enclosing one.(ôûÄ™8â×·ÈÙ-
+jsquid:CommentedOutCodeLine²"<This block of commented-out lines of code should be removed.(û¬Ó8§ğÓİ-
+psquid:UselessImportCheck-"@Remove this unused import 'com.mx.vise.acarreos.tasks.WaitTask'.(ö‚¾ùûÿÿÿÿ8ı€ÆÅÚ-
+Gsquid:S1148å"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8±à‰™Ù-
+"squid:SwitchLastCaseIsDefaultCheckˆ
+"YComplete cases by adding the missing enum constants or add a default case to this switch.(äãÆÆ8æÒ¹ÅÚ-
+Gsquid:S1148›"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8â×·ÈÙ-
+jsquid:S1301¦
+"KReplace this "switch" statement by "if" statements to increase readability.(òš²8æÒ¹ÅÚ-
+"squid:SwitchLastCaseIsDefaultCheck¦
+"YComplete cases by adding the missing enum constants or add a default case to this switch.(òš²8æÒ¹ÅÚ-
+jsquid:CommentedOutCodeLine¬"<This block of commented-out lines of code should be removed.(û¬Ó8ÇİòÓİ-

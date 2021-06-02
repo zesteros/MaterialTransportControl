@@ -1,0 +1,7 @@
+
+9squid:S1643¼"Use a StringBuilder instead.(Õ´Èôıÿÿÿÿ
+bsquid:S2259o"FA "NullPointerException" could be thrown; "mAdapter" is nullable here.(Ñ»øÿÿÿÿ
+9squid:S1643º"Use a StringBuilder instead.(¦…ª­øÿÿÿÿ
+[squid:UnusedPrivateMethodÔ"0Remove this unused private "getReversed" method.(Ôé“Öûÿÿÿÿ
+Csquid:S1068'"'Remove this unused "TAG" private field.(ÜóÛÓüÿÿÿÿ
+Nsquid:S2589t"7Remove this expression which always evaluates to "true"(ˆĞ²Ù

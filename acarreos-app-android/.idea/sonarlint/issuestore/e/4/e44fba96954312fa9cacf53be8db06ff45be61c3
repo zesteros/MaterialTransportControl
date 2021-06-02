@@ -1,0 +1,23 @@
+
+squid:S1319k"vThe type of the "keysChanged" object should be an interface such as "List" rather than the implementation "ArrayList".(›ˆŸì
+Œsquid:S1319W"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(’ÃŒËûÿÿÿÿ
+šsquid:S1319H"~The type of the "newMaterialsByPoint" object should be an interface such as "List" rather than the implementation "ArrayList".(À•«±ÿÿÿÿÿ
+—squid:S1319a"{The type of the "changedDistances" object should be an interface such as "List" rather than the implementation "ArrayList".(ùÎîÅøÿÿÿÿ
+‡squid:S1319<"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(„¥ùÖ
+‰squid:S1319q"rThe type of the "newKeys" object should be an interface such as "List" rather than the implementation "ArrayList".(ú­Ó±
+Œsquid:S1319e"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹½Á´øÿÿÿÿ
+‡squid:S1319["pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¤‡Ú
+Œsquid:S1319&"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(æÛøÿÿÿÿ
+‡squid:S1319n"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ãÏÚ
+‡squid:S1319L"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(‘²Ò”
+Œsquid:S13194"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ì€Ñÿùÿÿÿÿ
+squid:S1319/"tThe type of the "newPoints" object should be an interface such as "List" rather than the implementation "ArrayList".(óÿïÿúÿÿÿÿ
+Œsquid:S1319,"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¾š‰‰úÿÿÿÿ
+squid:S1319)"xThe type of the "pointsChanged" object should be an interface such as "List" rather than the implementation "ArrayList".(…ßêŞ
+šsquid:S1319@"‚The type of the "materialsByPointChanged" object should be an interface such as "List" rather than the implementation "ArrayList".(°ıµ’
+…squid:S1319S"oThe type of the "tags" object should be an interface such as "List" rather than the implementation "ArrayList".(—¼ı6
+Œsquid:S1319D"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(©ÄÊ×ıÿÿÿÿ
+‡squid:S1319h"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Ãàç˜
+‹squid:S1319^"tThe type of the "distances" object should be an interface such as "List" rather than the implementation "ArrayList".(ˆéÇ
+squid:S1319P"wThe type of the "newMaterials" object should be an interface such as "List" rather than the implementation "ArrayList".(—·¶€
+’squid:S13198"{The type of the "materialsChanged" object should be an interface such as "List" rather than the implementation "ArrayList".(”›Ú¬

@@ -1,0 +1,43 @@
+
+Fsquid:S1066}"/Merge this if statement with the enclosing one.(ºó¢Š
+Lsquid:S1066—"/Merge this if statement with the enclosing one.(Îšôşÿÿÿÿ
+‹squid:S4165¨"nRemove this useless assignment; "bitmapCompressed" already holds the assigned value along all execution paths.(ÖÙûŠüÿÿÿÿ
+squid:S1319Ì"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(é»ê·úÿÿÿÿ
+squid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(İÜùíøÿÿÿÿ
+ˆsquid:S1319‘"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÓÅº£
+squid:S1319ª"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(é¯Šûûÿÿÿÿ
+ˆsquid:S1319½"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¶ÄÛÀ
+squid:S1319÷"rThe type of the "intList" object should be an interface such as "List" rather than the implementation "ArrayList".(¼Ë¶üÿÿÿÿ
+squid:S1319Œ"sThe type of the "longList" object should be an interface such as "List" rather than the implementation "ArrayList".(¨ŒŠ¶úÿÿÿÿ
+’squid:S1319«"uThe type of the "doubleList" object should be an interface such as "List" rather than the implementation "ArrayList".(„Ÿ¤øÿÿÿÿ
+squid:S1319À"uThe type of the "stringList" object should be an interface such as "List" rather than the implementation "ArrayList".(â»í·
+‹squid:S1319Õ"sThe type of the "boolList" object should be an interface such as "List" rather than the implementation "ArrayList".(™ƒ¶ß
+Bsquid:S5411Ú"*Use the primitive boolean expression here.(¸è×¨
+?squid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148§"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148²"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+‚squid:S00116/"jRename this field "DEFAULT_APP_IMAGEDATA_DIRECTORY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şß´Ô
+Isquid:S1135B"2Complete the task associated to this TODO comment.(‡ñÅ¼
+fsquid:S4042—"IUse "java.nio.Files#delete" here for better messages on error conditions.(Îšôşÿÿÿÿ
+Gsquid:S2093¢"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ
+vsquid:S2293Î"YReplace the type specification in this constructor call with the diamond operator ("<>").(û»Åİùÿÿÿÿ
+qsquid:S2293Ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(àçºÆ
+vsquid:S2293ƒ"YReplace the type specification in this constructor call with the diamond operator ("<>").(û»Åİùÿÿÿÿ
+vsquid:S2293„"YReplace the type specification in this constructor call with the diamond operator ("<>").(ìãµ°ùÿÿÿÿ
+vsquid:S2293“"YReplace the type specification in this constructor call with the diamond operator ("<>").(û»Åİùÿÿÿÿ
+vsquid:S2293”"YReplace the type specification in this constructor call with the diamond operator ("<>").(ŞÔ‘³üÿÿÿÿ
+vsquid:S2293«"YReplace the type specification in this constructor call with the diamond operator ("<>").(œ¡ÜÃùÿÿÿÿ
+vsquid:S2293¿"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ëÿ¡ïùÿÿÿÿ
+Zsquid:S1126Â"BReplace this if-then-else statement by a single method invocation.(¥ŞŠ²
+qsquid:S2293×"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰«×õ
+asquid:S4042‡"IUse "java.nio.Files#delete" here for better messages on error conditions.(¥Ç¼Ö
+Csquid:S1452–"&Remove usage of generic wildcard type.(Ç ù™üÿÿÿÿ
+bsquid:CommentedOutCodeLine)"<This block of commented-out lines of code should be removed.(ºÙßÅ
+hsquid:CommentedOutCodeLineÍ"<This block of commented-out lines of code should be removed.(¬ÛÈÿÿÿÿÿ
+hsquid:CommentedOutCodeLineĞ"<This block of commented-out lines of code should be removed.(Éî×›ÿÿÿÿÿ
+hsquid:CommentedOutCodeLineÓ"<This block of commented-out lines of code should be removed.(Š˜ÙÆøÿÿÿÿ
+hsquid:CommentedOutCodeLineÜ"<This block of commented-out lines of code should be removed.(Ò¿¾Õùÿÿÿÿ
+csquid:CommentedOutCodeLineŞ"<This block of commented-out lines of code should be removed.(è¹·Ÿ
+hsquid:CommentedOutCodeLineé"<This block of commented-out lines of code should be removed.(—ú¿±úÿÿÿÿ
+hsquid:CommentedOutCodeLineï"<This block of commented-out lines of code should be removed.(Ñ²½ıÿÿÿÿ

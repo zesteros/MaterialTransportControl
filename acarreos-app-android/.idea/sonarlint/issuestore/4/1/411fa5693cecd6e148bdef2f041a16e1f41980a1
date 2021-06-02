@@ -1,0 +1,6 @@
+
+Nsquid:S1135&"2Complete the task associated to this TODO comment.(áÃæùÿÿÿÿ
+lsquid:S00116"ORename this field "Imei" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³ëÇøÿÿÿÿ
+=squid:S1068"&Remove this unused "tm" private field.(ò¼Å
+Dsquid:S1068"(Remove this unused "Imei" private field.(³ëÇøÿÿÿÿ
+"squid:ClassVariableVisibilityCheck"TMake mContext a static final constant or non-public and provide accessors if needed.(Ù’ş

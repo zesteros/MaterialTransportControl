@@ -1,0 +1,22 @@
+
+squid:S1186N"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(½Ä³ïşÿÿÿÿ
+]squid:UselessImportCheck"4Remove this unused import 'android.nfc.NdefMessage'.(ˆ¼ãòıÿÿÿÿ
+Asquid:S1068)"*Remove this unused "mPages" private field.(€ê÷«
+]squid:UselessImportCheck":Remove this unused import 'com.mx.vise.nfc.NFCIdListener'.(å¢Èd
+€squid:S1450'"dRemove the "mSectionsPagerAdapter" field and declare it as a local variable in the relevant methods.(İÅışÿÿÿÿ
+Vsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+usquid:S1450*"YRemove the "mViewPager" field and declare it as a local variable in the relevant methods.(Õîµıúÿÿÿÿ
+Csquid:S1068&"'Remove this unused "TAG" private field.(ÜóÛÓüÿÿÿÿ
+usquid:S1450+"YRemove the "mTabLayout" field and declare it as a local variable in the relevant methods.(ò…ÿ‚şÿÿÿÿ
+˜squid:S1186S"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¦›Í
+?squid:S1185\"(Remove this method to simply inherit it.(¡Œşø
+Jsquid:S1068+".Remove this unused "mTabLayout" private field.(ò…ÿ‚şÿÿÿÿ
+isquid:CommentedOutCodeLine:"<This block of commented-out lines of code should be removed.(ÖúòĞ8›ÍÂÆ×-
+gsquid:CallToDeprecatedMethodB"@Remove this use of "setOnTabSelectedListener"; it is deprecated.(°ü€:
+nsquid:UselessImportCheck"ERemove this unused import 'com.mx.vise.acarreos.singleton.Singleton'.(´éÆüÿÿÿÿ
+rsquid:S1450("VRemove the "mTitles" field and declare it as a local variable in the relevant methods.(•¡½Úùÿÿÿÿ
+Usquid:S11359"2Complete the task associated to this TODO comment.(ã±Ô„úÿÿÿÿ8¦ëÅÆ×-
+Gsquid:S1068("+Remove this unused "mTitles" private field.(•¡½Úùÿÿÿÿ
+bsquid:CommentedOutCodeLine7"<This block of commented-out lines of code should be removed.(´ƒ£
+msquid:UselessImportCheck"IRemove this unused import 'com.mx.vise.acarreos.activities.MainActivity'.(‘ö¦ô
+vsquid:UselessImportCheck"MRemove this unused import 'com.mx.vise.nfc.MifareClassicCompatibilityStatus'.(ûÚ÷øşÿÿÿÿ

@@ -1,0 +1,8 @@
+
+jsquid:S001161"RRename this field "NTPTime" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åÿòø
+vsquid:S00117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇƒÖöùÿÿÿÿ8ÕæÄÿÖ-
+Qsquid:S1068)"3Remove this unused "stopUseDatabase" private field.(¥ùïâ8×ŠÁ™Ù-
+‰squid:S1319J"mThe type of the "menus" object should be an interface such as "Map" rather than the implementation "HashMap".(“ãÇÍùÿÿÿÿ
+Gsquid:S1068%"+Remove this unused "console" private field.(ª•›şÿÿÿÿ
+]$squid:AssignmentInSubExpressionCheck6".Extract the assignment out of this expression.(µÁ¹>
+‰squid:S1319N"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(˜éîÖşÿÿÿÿ

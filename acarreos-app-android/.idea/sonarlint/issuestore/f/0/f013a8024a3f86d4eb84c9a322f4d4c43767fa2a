@@ -1,0 +1,9 @@
+
+¤squid:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ûì×ýþÿÿÿÿ8‹¨›Ç×-
+Usquid:S1172o"2Remove this unused method parameter "sheetNumber".(ûì×ýþÿÿÿÿ8‹¨›Ç×-
+Jsquid:S1602/",Remove useless curly braces around statement(Ô£ ¹8¶Ê¸Å×-
+zsquid:S3008"^Rename this field "BARCODE_INTENT_CODE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€†°òúÿÿÿÿ
+isquid:CommentedOutCodeLineh"<This block of commented-out lines of code should be removed.(·»óä8‹¨›Ç×-
+nsquid:UnusedPrivateMethodo"=Remove this unused private "requestTicketCancelation" method.(ûì×ýþÿÿÿÿ8‹¨›Ç×-
+Usquid:S1444"9Make this "public static BARCODE_INTENT_CODE" field final(€†°òúÿÿÿÿ
+’"squid:ClassVariableVisibilityCheck"_Make BARCODE_INTENT_CODE a static final constant or non-public and provide accessors if needed.(€†°òúÿÿÿÿ

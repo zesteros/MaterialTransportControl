@@ -1,0 +1,8 @@
+
+?squid:S1148#"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+@squid:S1444")Make this "public static TAG" field final(Š“½’
+Vsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+esquid:S3008"NRename this field "TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š“½’
+osquid:UselessImportCheck"KRemove this unused import 'com.mx.vise.acarreos.singleton.SingletonGlobal'.(½·ÿå
+}"squid:ClassVariableVisibilityCheck"OMake TAG a static final constant or non-public and provide accessors if needed.(Š“½’
+]squid:S2142""FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€

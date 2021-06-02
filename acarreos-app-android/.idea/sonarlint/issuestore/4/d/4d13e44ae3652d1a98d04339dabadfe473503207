@@ -1,0 +1,13 @@
+
+csquid:S11927"LDefine a constant instead of duplicating this literal " DATETIME," 22 times.(Øì°¸
+—squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ðùë
+dsquid:S1192>"HDefine a constant instead of duplicating this literal " TEXT);" 4 times.(§Ô¬ôþÿÿÿÿ
+zsquid:S1192/"dDefine a constant instead of duplicating this literal " INTEGER PRIMARY KEY AUTOINCREMENT," 8 times.(‚½âM
+_squid:S11922"HDefine a constant instead of duplicating this literal " FLOAT," 8 times.(Ÿ­ÔÂ
+gsquid:S11920"KDefine a constant instead of duplicating this literal " INTEGER," 28 times.(àƒŠ‘ýÿÿÿÿ
+msquid:S1192r"VDefine a constant instead of duplicating this literal "DROP TABLE IF EXISTS " 7 times.(ª½ƒ¨
+dsquid:S11921"HDefine a constant instead of duplicating this literal " TEXT," 29 times.(Ë¾äéÿÿÿÿÿ
+esquid:S1192."NDefine a constant instead of duplicating this literal "CREATE TABLE " 8 times.(ô´¯Ë
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(ó‘Î£
+csquid:S1192o"LDefine a constant instead of duplicating this literal " DATETIME);" 4 times.(ûáÜÌ
+3squid:S1118"Hide this public constructor.(ðùë

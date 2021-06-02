@@ -1,0 +1,6 @@
+
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(§Ôøéıÿÿÿÿ
+usquid:S3008$"YRename this field "URL_LOGIN_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷÷…Èùÿÿÿÿ
+Psquid:S1444$"4Make this "public static URL_LOGIN_USER" field final(÷÷…Èùÿÿÿÿ
+"squid:ClassVariableVisibilityCheck$"ZMake URL_LOGIN_USER a static final constant or non-public and provide accessors if needed.(÷÷…Èùÿÿÿÿ
+isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(³¥£é8ßûôµİ-

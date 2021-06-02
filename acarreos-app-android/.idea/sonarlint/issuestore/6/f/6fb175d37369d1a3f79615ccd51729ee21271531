@@ -1,0 +1,27 @@
+
+Bsquid:S00108§")Either remove or fill this block of code.(¥ÆöÖ
+bsquid:S2147ß"ECombine this catch with the one at line 221, which has the same body.(±Ÿ—±ÿÿÿÿÿ
+\squid:S3878ó"8Remove this array creation and simply pass the elements.(ÀÆ÷ðüÿÿÿÿ8é†ß ×-
+osquid:UselessImportCheck"?Remove this unused import 'com.mx.vise.acarreos.pojos.TagPOJO'.(ÈƒäÞýÿÿÿÿ8«öÑÓÝ-
+Gsquid:S1604×"(Make this anonymous inner class a lambda(þ¬ÉÙ8é†ß ×-
+hsquid:CommentedOutCodeLineÞ"<This block of commented-out lines of code should be removed.(Å†ýýÿÿÿÿ
+Bsquid:S00108¬")Either remove or fill this block of code.(”ý¾
+@squid:S1148Õ"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+\squid:S3878î"8Remove this array creation and simply pass the elements.(á©’Žøÿÿÿÿ8é†ß ×-
+Lsquid:S1066ã"/Merge this if statement with the enclosing one.(˜§ßœùÿÿÿÿ
+jsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(–À‘ä
+hsquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(Üß¾¨üÿÿÿÿ
+@squid:S1148…"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+vsquid:S3776É"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(®äóÉûÿÿÿÿ8ž§Û ×-
+bsquid:S3518Ž"CMake sure "totalElements" can't be zero before doing this division.(ŸÄåÝ8øøß ×-
+Gsquid:S00108ß")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ
+Gsquid:S1066ä"/Merge this if statement with the enclosing one.(è’¸ç
+@squid:S1148—"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Bsquid:S00108¼")Either remove or fill this block of code.(¥ÆöÖ
+Rsquid:S1141Û"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+@squid:S1148í"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+Gsquid:S00108Ý")Either remove or fill this block of code.(“•‡ÿÿÿÿÿ
+Ž"squid:ClassVariableVisibilityCheck>"[Make mProgressDialog a static final constant or non-public and provide accessors if needed.(Þ°’Ùýÿÿÿÿ
+[squid:S3518Á"CMake sure "totalElements" can't be zero before doing this division.(ŸÄåÝ
+jsquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(§®ÿ8é†ß ×-
+Lsquid:S1604Þ"(Make this anonymous inner class a lambda(¢ûÔÔøÿÿÿÿ8é†ß ×-

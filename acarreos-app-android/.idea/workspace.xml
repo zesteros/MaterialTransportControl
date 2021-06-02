@@ -1,0 +1,1570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="^(vise)" />
+        <option name="name" value="vise" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="^Local time" />
+        <option name="name" value="localtime" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="^((?!isSBSettingEnabled).)*$ " />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="log" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagIsRegex" value="false" />
+        <option name="logTagPattern" value="&quot;/^(?:emails|tags|System.out)&quot; " />
+        <option name="name" value="filteres" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="vise" />
+  </component>
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="acarreos-app-android" />
+      <module name="androidzebrahelper" />
+      <module name="nfchelper" />
+      <module name="app" />
+    </loaded-modules>
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <last-search-timestamp>1564674751064</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="230f0e6e-e2f6-4fb9-8c0b-06c20028e4b8" name="Default Changelist" comment="[REF] Se arregla el bug de cierre de configurar tag y">
+      <change beforePath="$PROJECT_DIR$/androidzebrahelper/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/androidzebrahelper/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAODistances.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAODistances.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOMaterials.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOMaterials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/TicketFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/TicketFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/SyncData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/SyncData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/acarreos_app_android$acarreos_in_app.ic" NAME="acarreos in app Coverage Results" MODIFIED="1569021507929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="acarreos-app-android" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/activities/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2160">
+              <caret line="319" column="43" selection-start-line="319" selection-start-column="43" selection-end-line="319" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#40673#40674#0" expanded="true" />
+                <element signature="e#40707#40708#0" expanded="true" />
+                <element signature="e#40764#40765#0" expanded="true" />
+                <element signature="e#40810#40811#0" expanded="true" />
+                <element signature="e#40855#40856#0" expanded="true" />
+                <element signature="e#40891#40892#0" expanded="true" />
+                <element signature="e#40953#40954#0" expanded="true" />
+                <element signature="e#41002#41003#0" expanded="true" />
+                <element signature="e#41386#41387#0" expanded="true" />
+                <element signature="e#41435#41436#0" expanded="true" />
+                <element signature="e#41543#41544#0" expanded="true" />
+                <element signature="e#41593#41594#0" expanded="true" />
+                <element signature="e#41637#41638#0" expanded="true" />
+                <element signature="e#41669#41670#0" expanded="true" />
+                <element signature="e#41726#41727#0" expanded="true" />
+                <element signature="e#41767#41768#0" expanded="true" />
+                <element signature="e#42455#42456#0" expanded="true" />
+                <element signature="e#42494#42495#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/util/ImeiHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-243">
+              <caret line="42" column="93" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOMaterials.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="76" selection-start-line="76" selection-end-line="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOKeys.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAODistances.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1445">
+              <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/SyncData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6528">
+              <caret line="424" selection-start-line="424" selection-end-line="424" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOPoints.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOTags.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOTicket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2363">
+              <caret line="158" selection-start-line="158" selection-end-line="158" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/SyncStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="JUnit3 Test Class" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mReading</find>
+      <find>read</find>
+      <find>mReadingTagProgressDialog.dismiss();</find>
+      <find>write</find>
+      <find>mReadingTagProgressDialog =</find>
+      <find>setM</find>
+      <find>setMaterialsA</find>
+      <find>setAvailableMaterialsAndDistances</find>
+      <find>loadingMessage</find>
+      <find>setOnItemSelectedListener</find>
+      <find>mMater</find>
+      <find>mMaterialsSpinner.</find>
+      <find>mSelectedMaterial</find>
+      <find>ontagRe</find>
+      <find>ontagW</find>
+      <find>setEnabled</find>
+      <find>onTagre</find>
+      <find>onTagReadSu</find>
+      <find>setE</find>
+      <find>setEna</find>
+      <find>onTagRe</find>
+      <find>cubage</find>
+      <find>clean</find>
+      <find>PRINT</find>
+      <find>seteNABLED</find>
+      <find>onClick</find>
+      <find>onPrint</find>
+      <find>validate</find>
+      <find>requestPermissions</find>
+      <find>Control</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>protected</replace>
+      <replace>public</replace>
+      <replace>showSnackbarWithAction</replace>
+    </replaceStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../../../../Android/keystores/android.jks" />
+    <option name="KEY_ALIAS" value="key" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/TicketFragment.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/activities/SettingsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mx/vise/acarreos/activities/MainActivityTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/pojos/PointPOJO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-v21/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/com/mx/vise/acarreos/util/TimeHelperTest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/util/TimeHelper.java" />
+        <option value="$PROJECT_DIR$/app/build/generated/source/greendao/com/mx/vise/acarreos/dao/entities/TicketsDao.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/entities/Tickets.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DatabaseUpgradeHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/App.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/pojos/CancelTicketPOJO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/singleton/Singleton.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/activities/SimpleScannerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/util/CancelTicketRequest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/TagDataPagerFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/CancelTicketFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/nav_header_main.xml" />
+        <option value="$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/mifareclassic/Common.java" />
+        <option value="$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/TagRead.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOKeys.java" />
+        <option value="$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/NFCHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/PointsRegisterFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_points_register.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/Contract.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_tickets.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/singleton/SingletonGlobal.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/TicketType.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/ReestablishTagFragment.java" />
+        <option value="$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/mifareclassic/MCReader.java" />
+        <option value="$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/mifareclassic/MifareClassicReadWrite.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/ViewTagDataFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/Constants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/LocationThread.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOTicket.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/BaseTask.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/pojos/RequestDeviceRegister.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/pojos/RequestDeviceRegisterPOJO.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/pojos/SyncResponsePOJO.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOPoints.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/SyncData.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/TicketFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/activities/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/webservice/WebServiceConstants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/SyncThread.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/util/ImeiHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOMaterials.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAODistances.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="240" />
+    <option name="y" value="130" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="acarreos-app-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acarreos-app-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="acarreos-app-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acarreos-app-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="acarreos-app-android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/app/release/app-release.apk" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="308" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="308" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="308" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="308" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="309" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="308" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="308" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="308" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="308" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="308" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="309" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="308" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="device.picker.selection" value="0123456789ABCDEF" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/androidTest/java/com/mx/vise/acarreos/activities" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.mx.vise.acarreos.activities" />
+      <recent name="com.mx.vise.acarreos.util" />
+      <recent name="com.mx.vise.nfc.mifareclassic" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/pojos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/xml" />
+      <recent name="$PROJECT_DIR$/mifareclassichelper/src/main/java/com/mx/vise/mifareclassichelper" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+      <recent name="junit.framework.TestCase" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.mx.vise.acarreos.pojos" />
+      <recent name="com.mx.vise.acarreos.util" />
+      <recent name="com.mx.vise.nfc" />
+      <recent name="com.mx.vise.nfc.interfaces" />
+      <recent name="com.mx.vise.nfc.mifareclassic" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="MifareClassicReadWriteTest" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nfchelper" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mx.vise.nfc.mifareclassic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mx.vise.nfc.mifareclassic" />
+      <option name="MAIN_CLASS_NAME" value="com.mx.vise.nfc.mifareclassic.MifareClassicReadWriteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="acarreos in app" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <dir value="$PROJECT_DIR$/app/src/test/java/com/mx/vise/acarreos" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="do_nothing" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeHelperTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.mx.vise.acarreos.util.TimeHelperTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="manageClickTest()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="manageClickTest" />
+      <option name="CLASS_NAME" value="com.mx.vise.acarreos.activities.MainActivityTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="obtainValidDate()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="obtainValidDate" />
+      <option name="CLASS_NAME" value="com.mx.vise.acarreos.util.TimeHelperTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.obtainValidDate()" />
+        <item itemvalue="Android Instrumented Tests.TimeHelperTest" />
+        <item itemvalue="Android Instrumented Tests.manageClickTest()" />
+        <item itemvalue="Android JUnit.acarreos in app" />
+        <item itemvalue="Android JUnit.MifareClassicReadWriteTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\angelo.loza\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="230f0e6e-e2f6-4fb9-8c0b-06c20028e4b8" name="Default Changelist" comment="" />
+      <created>1563035032212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563035032212</updated>
+    </task>
+    <task id="LOCAL-00014" summary="[REF] Se agregan metodos de descifrado de llaves, sincronizacion y cambios menores">
+      <created>1565735600031</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1565735600031</updated>
+    </task>
+    <task id="LOCAL-00015" summary="[REF] metodos de escritura y lectura de llaves, lectura y escritura de banderas, estado de lectura de nfc y sus versiones,">
+      <created>1565735716032</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1565735716032</updated>
+    </task>
+    <task id="LOCAL-00016" summary="[REF] actualizacion de gradles">
+      <created>1565735767029</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1565735767029</updated>
+    </task>
+    <task id="LOCAL-00017" summary="[REF] Se remueve el api de uhf">
+      <created>1567114991033</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1567114991033</updated>
+    </task>
+    <task id="LOCAL-00018" summary="[REF] Se quita el reinicio de lector uhf">
+      <created>1567115035027</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1567115035027</updated>
+    </task>
+    <task id="LOCAL-00019" summary="[REF] Se retira el UHF y se agrega la vibracion cuando se lee un tag, como tambien el dao por greendao">
+      <created>1567119256026</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1567119256026</updated>
+    </task>
+    <task id="LOCAL-00020" summary="[REF] Se quita el parametro de datos de tag">
+      <created>1567119416028</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1567119416028</updated>
+    </task>
+    <task id="LOCAL-00021" summary="[FIX] Parche para quitar el cierre inesperado cuando no detecta ubicacion">
+      <created>1567119527027</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1567119527027</updated>
+    </task>
+    <task id="LOCAL-00022" summary="[REF] Se remueven las llaves del codigo">
+      <created>1567119658028</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1567119658028</updated>
+    </task>
+    <task id="LOCAL-00023" summary="[REF] Se cambia el host por uno de pruebas">
+      <created>1567119743027</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1567119743027</updated>
+    </task>
+    <task id="LOCAL-00024" summary="[REF] Se remueven librerias uhf y se actualiza version del cipher">
+      <created>1567119816031</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1567119816031</updated>
+    </task>
+    <task id="LOCAL-00025" summary="[REF] Se agrega la distancia automatica del tag en acarreos, se agrega la autoseleccion del banco si se encuentra en uno, se bloquea la obra que no se puede terminar el ciclo en otra obra">
+      <created>1567207500028</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1567207500028</updated>
+    </task>
+    <task id="LOCAL-00026" summary="[REF] Se agrega la obra a la barra de navegación, se agrega la prueba del modulo de cancelación de ticket, y el botón para salir de la aplicación,  además de la funcionalidad de captura de código de barras, la leyenda de reimpresión en el boleto y su contador,">
+      <created>1567530429036</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1567530429036</updated>
+    </task>
+    <task id="LOCAL-00027" summary="[REF] Cambios menores">
+      <created>1568302737031</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1568302737031</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[REF] Refactorizacion sugerida por sonarlint">
+      <created>1569540915029</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1569540915029</updated>
+    </task>
+    <task id="LOCAL-00029" summary="[REF] Se cambia el snackbar para hacer compatible versiones anteriores a marshmallow">
+      <created>1569540975034</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1569540975034</updated>
+    </task>
+    <task id="LOCAL-00030" summary="[REF] Refactorizacion sugerida por sonarlint, se agrega el spinnersearch para facilitar el acceso, y se quita el snackbar que requeria marshmallow">
+      <created>1569541051030</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1569541051030</updated>
+    </task>
+    <task id="LOCAL-00031" summary="[REF] Searchablespinner adaptado y primeras pruebas de tiempo automatico por gps y datos">
+      <created>1569541145032</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1569541145032</updated>
+    </task>
+    <task id="LOCAL-00032" summary="[REF] Se agrega la hora del GPS para evitar manipulaciones">
+      <created>1569542175028</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1569542175028</updated>
+    </task>
+    <task id="LOCAL-00033" summary="[REF] Se arregla el result del codigo de barras">
+      <created>1569690173027</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690173027</updated>
+    </task>
+    <task id="LOCAL-00034" summary="[REF] Se regresa solo el texto del codigo de barras">
+      <created>1569690207028</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690207028</updated>
+    </task>
+    <task id="LOCAL-00035" summary="[REF] Se completa el codigo de cancelacion de boletos">
+      <created>1569690238032</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690238032</updated>
+    </task>
+    <task id="LOCAL-00036" summary="[REF] Se deshabilita la vista de reestablecer tag para no confundir al usuario">
+      <created>1569690285028</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690285028</updated>
+    </task>
+    <task id="LOCAL-00037" summary="[REF] Se agrega el caracter de replace">
+      <created>1569690311027</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690311027</updated>
+    </task>
+    <task id="LOCAL-00038" summary="[ADD] Se agrega el pojo de cancelacion de folio">
+      <created>1569690331028</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690331028</updated>
+    </task>
+    <task id="LOCAL-00039" summary="[REF] Se adapta la sincronización automatica para poder enviar los folios cancelados.">
+      <created>1569690423028</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690423028</updated>
+    </task>
+    <task id="LOCAL-00040" summary="[REF] Se agrega el dao de tickets cancelados">
+      <created>1569690460026</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690460026</updated>
+    </task>
+    <task id="LOCAL-00041" summary="[ADD] Se agrega la clase para poder actualizar la version de la base de datos">
+      <created>1569690487026</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690487026</updated>
+    </task>
+    <task id="LOCAL-00042" summary="[REF] Se cambia el acceso de la base de datos por la actualizable">
+      <created>1569690548029</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690548029</updated>
+    </task>
+    <task id="LOCAL-00043" summary="[ADD] Se agrega el ayudante de cancelación">
+      <created>1569690591024</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690591024</updated>
+    </task>
+    <task id="LOCAL-00044" summary="[REF] Se agrega el url de boleto cancelado y campos faltantes en la entity, proguard para evitar la ingenieria inversa (decompilar apk)">
+      <created>1569690701030</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690701030</updated>
+    </task>
+    <task id="LOCAL-00045" summary="[REF] Se agrega el sonarqube">
+      <created>1569690769030</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690769030</updated>
+    </task>
+    <task id="LOCAL-00046" summary="[REF] cambios para lanzar la version 1.0.8 (se deja pendiente la cancelacion online)">
+      <created>1569691650031</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1569691650031</updated>
+    </task>
+    <task id="LOCAL-00047" summary="[REF] Se agrega la version a la barra lateral">
+      <created>1569692594027</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1569692594027</updated>
+    </task>
+    <task id="LOCAL-00048" summary="[REF] Se agrega la version a la barra lateral">
+      <created>1569692721028</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1569692721028</updated>
+    </task>
+    <task id="LOCAL-00049" summary="[REF] Reestructura para leer el tag sin tener el dialogo abierto, ya se detecta el tag virgen y se mejora la escritura del tag.">
+      <created>1570036598035</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1570036598035</updated>
+    </task>
+    <task id="LOCAL-00050" summary="[REF] Se adaptaron los daos para el nuevo tipo de punto (3) desperdicio, donde se agrega el numero 4 como todos y se adapto el dao de materiales para poder obtenerlos por punto.">
+      <created>1570146098031</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1570146098033</updated>
+    </task>
+    <task id="LOCAL-00051" summary="[REF] Se agrega el tipo de punto desperdicio y se cambia la perspectiva de cadenamiento a solo los tiros">
+      <created>1570146150027</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1570146150027</updated>
+    </task>
+    <task id="LOCAL-00052" summary="[REF] Se remueven las tareas de espera, se agrega la autoseleccion de materiales y distancias en funcion del banco, se agrega el tipo de punto desperdicio y su tratamiento.">
+      <created>1570146235027</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1570146235027</updated>
+    </task>
+    <task id="LOCAL-00053" summary="[REF] Se agrega al singleton el punto seleccionado actual(id de punto) y el tipo punto actual(banco, tiro,etc)">
+      <created>1570146372028</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1570146372028</updated>
+    </task>
+    <task id="LOCAL-00054" summary="[REF] Primeras pruebas para detectar cuando no haya un material en un banco">
+      <created>1570146473028</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1570146473028</updated>
+    </task>
+    <task id="LOCAL-00055" summary="[REF] Se reorganizo la vista para poner los bancos en la cima.">
+      <created>1570146596025</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1570146596025</updated>
+    </task>
+    <task id="LOCAL-00056" summary="[REF] Se cambian los mensajes de aviso.">
+      <created>1570203165032</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1570203165032</updated>
+    </task>
+    <task id="LOCAL-00057" summary="[REF] Se agrega la lectura del tag sin depender del dialogo">
+      <created>1570205007028</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1570205007028</updated>
+    </task>
+    <task id="LOCAL-00058" summary="[REF] Se agrega la deteccion de tags de cygnux, adaptacion de desperdicio y validación de tag cancelado.">
+      <created>1570231822029</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1570231822029</updated>
+    </task>
+    <task id="LOCAL-00059" summary="[REF] Se agrega la posibilidad de leer tags sin contraseña">
+      <created>1570231910027</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1570231910027</updated>
+    </task>
+    <task id="LOCAL-00060" summary="[REF] Se arregla el bug de cierre de configurar tag (se cambia a leer tag) y se agrega el cadenamiento de los tiros a informacion">
+      <created>1570477194026</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1570477194027</updated>
+    </task>
+    <task id="LOCAL-00061" summary="[REF] Se agrega el acarreo interno y su logica">
+      <created>1570496237029</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1570496237029</updated>
+    </task>
+    <task id="LOCAL-00062" summary="[REF] Se agrega la validación de imei y solicitud de registro.">
+      <created>1571072852029</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1571072852030</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="obtainValidDate() - 2019.09.20 at 17h 26m 23s.xml">
+      <configuration name="obtainValidDate()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="acarreos_in_app - 2019.09.20 at 18h 18m 30s.xml">
+      <configuration name="acarreos in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="acarreos_in_app - 2019.09.20 at 18h 25m 25s.xml">
+      <configuration name="acarreos in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="manageClickTest() - 2019.09.21 at 10h 56m 09s.xml">
+      <configuration name="manageClickTest()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TimeHelperTest - 2019.09.26 at 16h 33m 42s.xml">
+      <configuration name="TimeHelperTest" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TimeHelperTest - 2019.09.26 at 16h 34m 08s.xml">
+      <configuration name="TimeHelperTest" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="TimeHelperTest - 2019.09.26 at 17h 03m 44s.xml">
+      <configuration name="TimeHelperTest" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="obtainValidDate() - 2019.09.26 at 17h 04m 12s.xml">
+      <configuration name="obtainValidDate()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="obtainValidDate() - 2019.09.26 at 17h 29m 45s.xml">
+      <configuration name="obtainValidDate()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="obtainValidDate() - 2019.09.26 at 17h 42m 44s.xml">
+      <configuration name="obtainValidDate()" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4992636" visible="true" weight="0.13326226" />
+      <window_info id="Structure" order="2" sideWeight="0.50147057" side_tool="true" weight="0.18157615" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Run" order="0" weight="0.32908705" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.77025586" weight="0.39869988" />
+      <window_info anchor="bottom" id="TODO" order="2" weight="0.32908705" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32988507" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.4978701" weight="0.3269639" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.22974414" side_tool="true" weight="0.27952328" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.49946752" weight="0.32873562" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.71449274" visible="true" weight="0.27193934" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49840257" weight="0.3280255" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946752" weight="0.3275862" />
+      <window_info anchor="bottom" id="SonarQube" order="11" weight="0.32908705" />
+      <window_info anchor="bottom" id="SonarLint" order="12" weight="0.32908705" />
+      <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.5055644" side_tool="true" visible="true" weight="0.24200426" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" sideWeight="0.4944356" weight="0.32960597" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" />
+      <window_info anchor="right" id="Coverage" order="6" side_tool="true" weight="0.32960597" />
+    </layout>
+  </component>
+  <component name="UnloadedModulesList">
+    <module name="uhfhelper" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[REF] Se adapta la sincronización automatica para poder enviar los folios cancelados." />
+    <MESSAGE value="[REF] Se agrega el dao de tickets cancelados" />
+    <MESSAGE value="[ADD] Se agrega la clase para poder actualizar la version de la base de datos" />
+    <MESSAGE value="[REF] Se cambia el acceso de la base de datos por la actualizable" />
+    <MESSAGE value="[ADD] Se agrega el ayudante de cancelación" />
+    <MESSAGE value="[REF] Se agrega el url de boleto cancelado y campos faltantes en la entity" />
+    <MESSAGE value="[REF] Se agrega el url de boleto cancelado y campos faltantes en la entity, proguard para evitar la ingenieria inversa (decompilar apk)" />
+    <MESSAGE value="[REF] Se agrega el sonarqube" />
+    <MESSAGE value="[REF] cambios para lanzar la version 1.0.8 (se deja pendiente la cancelacion online)" />
+    <MESSAGE value="[REF] Se agrega la version a la barra lateral" />
+    <MESSAGE value="[REF] Reestructura para leer el tag sin tener el dialogo abierto, ya se detecta el tag virgen y se mejora la escritura del tag." />
+    <MESSAGE value="[REF] Se adaptaron los daos para el nuevo tipo de punto (3) desperdicio, donde se agrega el numero 4 como todos y se adapto el dao de materiales para poder obtenerlos por punto." />
+    <MESSAGE value="[REF] Se agrega el tipo de punto desperdicio y se cambia la perspectiva de cadenamiento a solo los tiros" />
+    <MESSAGE value="[REF] Se remueven las tareas de espera, se agrega la autoseleccion de materiales y distancias en funcion del banco, se agrega el tipo de punto desperdicio y su tratamiento." />
+    <MESSAGE value="[REF] Se agrega al singleton el punto seleccionado actual(id de punto) y el tipo punto actual(banco, tiro,etc)" />
+    <MESSAGE value="[REF] Primeras pruebas para detectar cuando no haya un material en un banco" />
+    <MESSAGE value="[REF] Se reorganizo la vista para poner los bancos en la cima." />
+    <MESSAGE value="[REF] Se cambian los mensajes de aviso." />
+    <MESSAGE value="[REF] Se agrega la lectura del tag sin depender del dialogo" />
+    <MESSAGE value="[REF] Se agrega la deteccion de tags de cygnux, adaptacion de desperdicio y validación de tag cancelado." />
+    <MESSAGE value="[REF] Se agrega la posibilidad de leer tags sin contraseña" />
+    <MESSAGE value="[REF] Se arregla el bug de cierre de configurar tag (se cambia a leer tag) y se agrega el cadenamiento de los tiros a informacion" />
+    <MESSAGE value="[REF] Se agrega el acarreo interno y su logica" />
+    <MESSAGE value="[REF]Se agrega la validación de imei" />
+    <MESSAGE value="[REF] Se agrega la validación de imei y solicitud de registro." />
+    <option name="LAST_COMMIT_MESSAGE" value="[REF] Se agrega la validación de imei y solicitud de registro." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOMaterials.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/AlertDialog.class" />
+    <entry file="file://$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/interfaces/OnTagReadListenerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/interfaces/OnTagReadListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/interfaces/OnVirginTagDetectedListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/TagRead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/NFCHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/NFCIdListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_points_register.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="167" column="41" selection-start-line="167" selection-start-column="41" selection-end-line="167" selection-end-column="41" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_tickets.xml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-587" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/adapters/GenericAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Library/Android/sdk/platforms/android-28/android.jar!/android/app/Dialog.class" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/TicketType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/PointsRegisterFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="161" column="70" selection-start-line="161" selection-start-column="70" selection-end-line="161" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/mifareclassic/Common.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="847" column="27" selection-start-line="847" selection-start-column="27" selection-end-line="847" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/ReestablishTagFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/mifareclassic/MCReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-651">
+          <caret line="249" column="53" selection-start-line="249" selection-start-column="53" selection-end-line="249" selection-end-column="53" />
+          <folding>
+            <element signature="e#43858#43859#0" expanded="true" />
+            <element signature="e#43888#43889#0" expanded="true" />
+            <element signature="e#43928#43929#0" expanded="true" />
+            <element signature="e#43963#43964#0" expanded="true" />
+            <element signature="e#44155#44156#0" expanded="true" />
+            <element signature="e#44192#44193#0" expanded="true" />
+            <element signature="e#44914#44915#0" expanded="true" />
+            <element signature="e#44957#44958#0" expanded="true" />
+            <element signature="e#45416#45417#0" expanded="true" />
+            <element signature="e#45457#45458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/ViewTagDataFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="303" column="75" selection-start-line="303" selection-start-column="75" selection-end-line="303" selection-end-column="75" />
+          <folding>
+            <element signature="e#11695#11726#0" expanded="true" />
+            <element signature="e#11760#11784#0" expanded="true" />
+            <element signature="e#12944#12983#0" expanded="true" />
+            <element signature="e#13109#13146#0" expanded="true" />
+            <element signature="e#13279#13332#0" expanded="true" />
+            <element signature="e#13470#13514#0" expanded="true" />
+            <element signature="e#13641#13679#0" expanded="true" />
+            <element signature="e#13813#13862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nfchelper/src/main/java/com/mx/vise/nfc/mifareclassic/MifareClassicReadWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="549" selection-start-line="549" selection-end-line="549" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/androidx/fragment/app/FragmentManager.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar!/com/google/gson/Gson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="98" column="23" selection-start-line="98" selection-start-column="19" selection-end-line="98" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/singleton/SingletonGlobal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1905">
+          <caret line="187" column="26" selection-start-line="187" selection-start-column="26" selection-end-line="187" selection-end-column="26" />
+          <folding>
+            <element signature="e#5404#5405#0" expanded="true" />
+            <element signature="e#5458#5459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/BaseTask.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0df99ea053d45abcfe41026c3e31609d/jars/classes.jar!/com/mx/vise/androidwscon/tasks/BaseTask.class" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/pojos/SyncResponsePOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="34" column="43" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/activities/SettingsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1725">
+          <caret line="151" column="22" selection-start-line="151" selection-start-column="22" selection-end-line="151" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ecc92ddc44e1211a0ab06652c02a56b3/jars/classes.jar!/com/mx/vise/androiduihelper/UIHelper.class" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/pojos/RequestDeviceRegisterPOJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="5" selection-start-column="2" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#589#590#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4165">
+          <caret line="245" column="42" selection-start-line="245" selection-start-column="42" selection-end-line="245" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/webservice/WebServiceConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/fragments/TicketFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="299" column="18" selection-start-line="299" selection-start-column="18" selection-end-line="299" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/Contract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="61" selection-start-line="20" selection-start-column="61" selection-end-line="20" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/util/gps/GPSTracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2712">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/util/gps/LatLng.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/SyncThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="39" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/LocationThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="98" lean-forward="true" selection-start-line="97" selection-start-column="57" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOKeys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="28" column="26" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAODistances.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="106" column="18" selection-start-line="106" selection-start-column="18" selection-end-line="106" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/SyncData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6528">
+          <caret line="424" selection-start-line="424" selection-end-line="424" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOPoints.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="45" column="62" selection-start-line="45" selection-start-column="62" selection-end-line="45" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOTags.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2363">
+          <caret line="158" selection-start-line="158" selection-end-line="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/tasks/SyncStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/dao/DAOMaterials.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/util/ImeiHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="42" column="93" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mx/vise/acarreos/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="319" column="43" selection-start-line="319" selection-start-column="43" selection-end-line="319" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#40673#40674#0" expanded="true" />
+            <element signature="e#40707#40708#0" expanded="true" />
+            <element signature="e#40764#40765#0" expanded="true" />
+            <element signature="e#40810#40811#0" expanded="true" />
+            <element signature="e#40855#40856#0" expanded="true" />
+            <element signature="e#40891#40892#0" expanded="true" />
+            <element signature="e#40953#40954#0" expanded="true" />
+            <element signature="e#41002#41003#0" expanded="true" />
+            <element signature="e#41386#41387#0" expanded="true" />
+            <element signature="e#41435#41436#0" expanded="true" />
+            <element signature="e#41543#41544#0" expanded="true" />
+            <element signature="e#41593#41594#0" expanded="true" />
+            <element signature="e#41637#41638#0" expanded="true" />
+            <element signature="e#41669#41670#0" expanded="true" />
+            <element signature="e#41726#41727#0" expanded="true" />
+            <element signature="e#41767#41768#0" expanded="true" />
+            <element signature="e#42455#42456#0" expanded="true" />
+            <element signature="e#42494#42495#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

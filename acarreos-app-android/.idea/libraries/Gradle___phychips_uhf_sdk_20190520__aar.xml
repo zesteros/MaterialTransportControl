@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :phychips_uhf_sdk_20190520:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/13f8638be0431e942cf7aa82ad180116/jars/libs/guavalib.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/13f8638be0431e942cf7aa82ad180116/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/13f8638be0431e942cf7aa82ad180116/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,6 @@
+
+]squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8Ö˜€…Õ-
+Msquid:S2696L"6Make the enclosing method "static" or remove this set.(êì‘«
+xsquid:S1450{"aRemove the "mSyncNowPreference" field and declare it as a local variable in the relevant methods.(ú¸¤Ä
+isquid:UselessImportCheck"@Remove this unused import 'com.mx.vise.acarreos.tasks.WaitTask'.(ö‚¾ùûÿÿÿÿ
+ssquid:UselessImportCheck"JRemove this unused import 'com.mx.vise.acarreos.tasks.OnOperationRunning'.(Œïò¸ýÿÿÿÿ

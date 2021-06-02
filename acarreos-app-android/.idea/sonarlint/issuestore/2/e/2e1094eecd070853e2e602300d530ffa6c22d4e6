@@ -1,0 +1,14 @@
+
+bsquid:CommentedOutCodeLine~"<This block of commented-out lines of code should be removed.(ÇÚ»
+™squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÁïÕÒ
+™squid:S1186•"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÀÄÞ’
+™squid:S1186‘"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(çÅðÙ
+nsquid:S3776M"RRefactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.(øˆ÷Ãùÿÿÿÿ
+ƒ"squid:ClassVariableVisibilityCheck,"UMake longitude a static final constant or non-public and provide accessors if needed.(™áŸ“
+Psquid:S1068E"4Remove this unused "locationCallback" private field.(ÕÆ…Úúÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheck+"TMake latitude a static final constant or non-public and provide accessors if needed.(šóôûÿÿÿÿ
+bsquid:CommentedOutCodeLineX"<This block of commented-out lines of code should be removed.(½Œ·Œ
+gsquid:CommentedOutCodeLine^"<This block of commented-out lines of code should be removed.(—ö€Œùÿÿÿÿ
+csquid:CommentedOutCodeLineŽ"<This block of commented-out lines of code should be removed.(Š¶ÞÀ
+hsquid:CommentedOutCodeLine©"<This block of commented-out lines of code should be removed.(‚þÞüþÿÿÿÿ
+Isquid:S1068>"3Remove this unused "locationRequest" private field.(¢¢ B

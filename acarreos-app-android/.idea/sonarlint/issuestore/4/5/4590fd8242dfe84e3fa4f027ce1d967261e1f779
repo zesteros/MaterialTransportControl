@@ -1,0 +1,23 @@
+
+Osquid:S1197J"8Move the array designator from the variable to the type.(ß¡­ï
+Jsquid:S1068<"'Remove this unused "TAG" private field.(‘ã÷ýÿÿÿÿ8ÔüÖ½Ú-
+]squid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ8ÔüÖ½Ú-
+osquid:UselessImportCheck"?Remove this unused import 'androidx.appcompat.app.AlertDialog'.(¼Ìï¨üÿÿÿÿ8Àð‹œÙ-
+\squid:S1172¬"8Remove this unused method parameter "actualNearbyPoint".(ÂÿÚþÿÿÿÿ8’ççîØ-
+osquid:ModifiersOrderCheckA"EReorder the modifiers to comply with the Java Language Specification.(õ°ÊŸþÿÿÿÿ
+@squid:S1604Œ"(Make this anonymous inner class a lambda(¤¶¼»
+Msquid:S1066™"/Merge this if statement with the enclosing one.(ˆžû\8™‹¹½Ú-
+lsquid:UselessImportCheck"<Remove this unused import 'android.content.DialogInterface'.(Š­›¨þÿÿÿÿ8¿ôÏ™Ù-
+Ssquid:S1066ª"/Merge this if statement with the enclosing one.(ÉŒü·ùÿÿÿÿ8™‹¹½Ú-
+Fsquid:S1066d"/Merge this if statement with the enclosing one.(Å³„Ý
+@squid:S1604ý"(Make this anonymous inner class a lambda(¤¶¼»
+rsquid:S00116J"ZRename this field "THROW_FRAGMENTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ß¡­ï
+Lsquid:S1066à"/Merge this if statement with the enclosing one.(ö¢ú´ûÿÿÿÿ
+nsquid:S3776{"RRefactor this method to reduce its Cognitive Complexity from 51 to the 15 allowed.(á¯•ýÿÿÿÿ
+Gsquid:S1066º"/Merge this if statement with the enclosing one.(¸—öù
+Fsquid:S1148t"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8ƒŒÄ‡Õ-
+Msquid:S1066á"/Merge this if statement with the enclosing one.(Û¦ V8äÙŒœÙ-
+jsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 29 to the 15 allowed.(Ù’ßî
+Ssquid:S1066«"/Merge this if statement with the enclosing one.(¬ïˆ€ùÿÿÿÿ8™‹¹½Ú-
+Gsquid:S00108ù")Either remove or fill this block of code.(úõ´¦üÿÿÿÿ
+Lsquid:EmptyStatementUsageCheck†"Remove this empty statement.(Åñ­õþÿÿÿÿ

@@ -1,0 +1,11 @@
+
+Esquid:S1172«"&Remove these unused method parameters.(‡Ò£è8ôïËíØ-
+squid:S1319É"wThe type of the "newMaterials" object should be an interface such as "List" rather than the implementation "ArrayList".(£¦“²
+qsquid:S1192“"YDefine a constant instead of duplicating this literal "Procesando materiales..." 4 times.( ¨Ô†
+“squid:S1319 "{The type of the "updatedMaterials" object should be an interface such as "List" rather than the implementation "ArrayList".(ßØØé
+“squid:S1319ê"{The type of the "updatedMaterials" object should be an interface such as "List" rather than the implementation "ArrayList".(¾‡ëÓ
+Jsquid:S1168¬"+Return an empty collection instead of null.(¥¹ï8ôïËíØ-
+Œsquid:S1319%"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(–Ş÷Ùüÿÿÿÿ
+”squid:S1319ô"wThe type of the "newMaterials" object should be an interface such as "List" rather than the implementation "ArrayList".(·Î‚½üÿÿÿÿ
+Asquid:S00108p")Either remove or fill this block of code.(”ı¾
+Vsquid:S1118!":Add a private constructor to hide the implicit public one.(ÏÒÒÂÿÿÿÿÿ

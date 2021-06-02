@@ -1,0 +1,78 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven'
+
+android {
+    compileSdkVersion 26
+
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+
+}
+
+repositories {
+    maven {
+        url "http://nexus.vise.com.mx/repository/maven-releases"
+    }
+}
+allprojects {
+    ext.RepoConfigurator = {
+        maven {
+            url = uri('http://nexus.vise.com.mx/repository/maven-releases')
+        }
+    }
+    buildscript.repositories RepoConfigurator
+    repositories RepoConfigurator
+}
+
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "http://nexus.vise.com.mx/repository/maven-releases") {
+                authentication(userName: mavenUser, password: mavenPassword)
+            }
+            pom.artifactId = 'androidnfchelper'
+            pom.version = '0.0.13'
+            pom.name = 'NFC Android'
+            pom.packaging = 'aar'
+            pom.groupId = 'com.mx.vise'
+        }
+    }
+
+}
+
+//def apk = file('app/build/outputs/apk/yourapp.apk')
+
+//artifacts {
+  //  archives apk
+//}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation 'com.android.support:design:26.1.0'
+    api 'com.mx.vise:androidwscon:0.0.8'
+    testImplementation 'junit:junit:4.12'
+
+
+}

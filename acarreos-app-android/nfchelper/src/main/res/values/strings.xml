@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">NFC Helper</string>
+    <string name="title_activity_nfc">NFCActivity</string>
+    <string name="info_new_tag_found">nuevo tag</string>
+    <string name="info_copied_to_clipboard">copiado</string>
+    <string name="writing_tag">Escribiendo tag... favor de no mover el tag hasta que este dialogo desaparezca.</string>
+    <string name="wait_please">Escribiendo tag</string>
+</resources>

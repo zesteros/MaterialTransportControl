@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :serialport_sdk_20190520:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95749594fb53bbd3cbce68cd8e147171/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95749594fb53bbd3cbce68cd8e147171/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/95749594fb53bbd3cbce68cd8e147171/jars/libs/idcardapi.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

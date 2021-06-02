@@ -1,0 +1,8 @@
+
+squid:S1319è"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(–ÅÓ8¯ÃĞîØ-
+—squid:S1319w"{The type of the "updatedDistances" object should be an interface such as "List" rather than the implementation "ArrayList".(Æ·§øÿÿÿÿ
+ˆsquid:S1319§"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Š»¯µ
+Vsquid:S1118#":Add a private constructor to hide the implicit public one.(ì±µıÿÿÿÿ
+€squid:UselessImportCheck"PRemove this unused import 'com.mx.vise.acarreos.tasks.LocationThread.BANK_TYPE'.(øıº¿üÿÿÿÿ8’ÒÓİ-
+“squid:S1319P"wThe type of the "newDistances" object should be an interface such as "List" rather than the implementation "ArrayList".(Ğä¼ğüÿÿÿÿ
+…squid:UselessImportCheck"ZRemove this unused import 'com.mx.vise.acarreos.tasks.LocationThread.BANK_AND_WASTE_TYPE'.(“”£š8ëÖÕÓİ-

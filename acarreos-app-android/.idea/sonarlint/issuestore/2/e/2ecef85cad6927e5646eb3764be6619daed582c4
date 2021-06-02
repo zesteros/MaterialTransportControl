@@ -1,0 +1,8 @@
+
+esquid:UselessImportCheck":Remove this unused import 'android.content.ComponentName'.(½‹æŠ8ìñÁ„Ü-
+Isquid:S5411÷"*Use the primitive boolean expression here.(Çš¿Ú8 Õ¡„Ü-
+Nsquid:S1066³"/Merge this if statement with the enclosing one.(¥ó‘Ø8ø§üàÛ-
+osquid:CommentedOutCodeLine“"<This block of commented-out lines of code should be removed.(¶Ñ÷öøÿÿÿÿ8ø§üàÛ-
+jsquid:CommentedOutCodeLine®"<This block of commented-out lines of code should be removed.(æã¢á8ø§üàÛ-
+osquid:CommentedOutCodeLine€"<This block of commented-out lines of code should be removed.(«äùœýÿÿÿÿ8®º¢„Ü-
+Ssquid:S1066°"/Merge this if statement with the enclosing one.(—àŠ¹ûÿÿÿÿ8ø§üàÛ-

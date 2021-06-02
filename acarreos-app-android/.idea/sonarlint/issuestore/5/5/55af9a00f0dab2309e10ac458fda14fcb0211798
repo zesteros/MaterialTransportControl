@@ -1,0 +1,20 @@
+
+tsquid:UselessImportCheck"IRemove this unused import 'org.greenrobot.greendao.query.WhereCondition'.(Âµ‘Â8ÜöÇÄÚ-
+csquid:CommentedOutCodeLineà"<This block of commented-out lines of code should be removed.(êÓ½Å
+csquid:CommentedOutCodeLineÄ"<This block of commented-out lines of code should be removed.(öÕ¡Ø
+hsquid:CommentedOutCodeLine©"<This block of commented-out lines of code should be removed.(¼è÷ïøÿÿÿÿ
+hsquid:CommentedOutCodeLine½"<This block of commented-out lines of code should be removed.(¼è÷ïøÿÿÿÿ
+bsquid:CommentedOutCodeLineÎ"<This block of commented-out lines of code should be removed.(Ê¢
+csquid:CommentedOutCodeLineÒ"<This block of commented-out lines of code should be removed.(Øñ¬¥
+Vsquid:S1118%":Add a private constructor to hide the implicit public one.(ú¾øúùÿÿÿÿ
+csquid:CommentedOutCodeLineÝ"<This block of commented-out lines of code should be removed.(Óü³ô
+”squid:S1319_"xThe type of the "pendingPoints" object should be an interface such as "List" rather than the implementation "ArrayList".(ë£™‚þÿÿÿÿ
+squid:S1319ž"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ö¯®Éúÿÿÿÿ
+hsquid:CommentedOutCodeLineœ"<This block of commented-out lines of code should be removed.(æ‚ÛÌüÿÿÿÿ
+csquid:CommentedOutCodeLineÖ"<This block of commented-out lines of code should be removed.(ááîý
+Ssquid:S1172ë"/Remove this unused method parameter "syncData".(îþá¯ùÿÿÿÿ8¢¥ÄÚ-
+csquid:CommentedOutCodeLinež"<This block of commented-out lines of code should be removed.(†÷¼ë
+•squid:S1319€"xThe type of the "updatedPoints" object should be an interface such as "List" rather than the implementation "ArrayList".(‡‘øßÿÿÿÿÿ
+hsquid:CommentedOutCodeLineæ"<This block of commented-out lines of code should be removed.(ÄÜÕªýÿÿÿÿ
+csquid:CommentedOutCodeLine³"<This block of commented-out lines of code should be removed.(ÛØÜÎ
+Jsquid:S1068'"'Remove this unused "TAG" private field.(ÜóÛÓüÿÿÿÿ8ƒÍÐÓÝ-

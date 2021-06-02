@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">zebraprinterandroid</string>
+    <string name="printing">Imprimiendo...</string>
+    <string name="printer_mac">printer_mac</string>
+    <string name="printer_name">printer_name</string>
+    <string name="no_imei_match_msg">El dispositivo con el que se intenta ingresar al sistema no esta relacionado con este usuario, solicite su registro en Control Interno.</string>
+</resources>

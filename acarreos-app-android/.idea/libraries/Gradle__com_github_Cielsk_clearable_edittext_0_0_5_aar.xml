@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.Cielsk:clearable-edittext:0.0.5@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b06be4ab142b5be71056ee8f0d15f1f4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b06be4ab142b5be71056ee8f0d15f1f4/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.Cielsk/clearable-edittext/0.0.5/63ea48bc4174b93cef5f4ff31ee11c29899aec80/clearable-edittext-0.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

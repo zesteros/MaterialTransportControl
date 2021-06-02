@@ -1,0 +1,32 @@
+
+Vsquid:S14444":Make this "public static MODULE_CANCEL_TICKET" field final(Ñè¬øÿÿÿÿ
+Ysquid:S1444,"=Make this "public static MODULE_MATERIAL_REQUEST" field final(Âššñıÿÿÿÿ
+qsquid:S3008 "ZRename this field "MODULE_SUPPLIES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜéÂ“
+“"squid:ClassVariableVisibilityCheck4"`Make MODULE_CANCEL_TICKET a static final constant or non-public and provide accessors if needed.(Ñè¬øÿÿÿÿ
+usquid:S3008"YRename this field "MODULE_CARRIES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ğ³„†şÿÿÿÿ
+"squid:ClassVariableVisibilityCheck("_Make MODULE_INTERN_CARRY a static final constant or non-public and provide accessors if needed.(¬„œŸ
+Lsquid:S1444 "5Make this "public static MODULE_SUPPLIES" field final(ÜéÂ“
+{squid:S30084"_Rename this field "MODULE_CANCEL_TICKET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñè¬øÿÿÿÿ
+Tsquid:S1444"=Make this "public static MODULE_ROAD_IMPROVEMENT" field final(Æœÿî
+"squid:ClassVariableVisibilityCheck"bMake MODULE_POINTS_REGISTER a static final constant or non-public and provide accessors if needed.(’ÌÎÓ
+‰"squid:ClassVariableVisibilityCheck "[Make MODULE_SUPPLIES a static final constant or non-public and provide accessors if needed.(ÜéÂ“
+rsquid:S3008"[Rename this field "MODULE_ROYALTIES" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷¶…
+ssquid:S3008$"\Rename this field "MODULE_FREE_CARRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä±
+–"squid:ClassVariableVisibilityCheck,"cMake MODULE_MATERIAL_REQUEST a static final constant or non-public and provide accessors if needed.(Âššñıÿÿÿÿ
+ysquid:S3008"bRename this field "MODULE_ROAD_IMPROVEMENT" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æœÿî
+"squid:ClassVariableVisibilityCheck"ZMake MODULE_CARRIES a static final constant or non-public and provide accessors if needed.(Ğ³„†şÿÿÿÿ
+Psquid:S1444("9Make this "public static MODULE_INTERN_CARRY" field final(¬„œŸ
+xsquid:S3008"aRename this field "MODULE_POINTS_REGISTER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’ÌÎÓ
+usquid:S3008("^Rename this field "MODULE_INTERN_CARRY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬„œŸ
+Š"squid:ClassVariableVisibilityCheck"\Make MODULE_ROYALTIES a static final constant or non-public and provide accessors if needed.(÷¶…
+"squid:ClassVariableVisibilityCheck0"`Make MODULE_CONFIGURE_TAG a static final constant or non-public and provide accessors if needed.(ã¸ÑÊ
+Msquid:S1444"6Make this "public static MODULE_ROYALTIES" field final(÷¶…
+Nsquid:S1444$"7Make this "public static MODULE_FREE_CARRY" field final(ä±
+~squid:S3008,"bRename this field "MODULE_MATERIAL_REQUEST" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Âššñıÿÿÿÿ
+Psquid:S1444"4Make this "public static MODULE_CARRIES" field final(Ğ³„†şÿÿÿÿ
+vsquid:S30080"_Rename this field "MODULE_CONFIGURE_TAG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ã¸ÑÊ
+Ssquid:S1444"<Make this "public static MODULE_POINTS_REGISTER" field final(’ÌÎÓ
+‘"squid:ClassVariableVisibilityCheck"cMake MODULE_ROAD_IMPROVEMENT a static final constant or non-public and provide accessors if needed.(Æœÿî
+‹"squid:ClassVariableVisibilityCheck$"]Make MODULE_FREE_CARRY a static final constant or non-public and provide accessors if needed.(ä±
+Qsquid:S14440":Make this "public static MODULE_CONFIGURE_TAG" field final(ã¸ÑÊ
+Vsquid:S1118":Add a private constructor to hide the implicit public one.(“³±ûÿÿÿÿ

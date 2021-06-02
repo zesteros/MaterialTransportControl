@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">mifareclassichelper</string>
+    <string name="info_file_to_big" />
+    <string name="info_copied_to_clipboard" />
+    <string name="info_new_tag_found" />
+    <string name="info_no_tag_found" />
+    <string name="info_not_hex_data" />
+    <string name="info_not_16_byte" />
+    <string name="info_valid_dump_not_4_or_16_lines" />
+    <string name="info_valid_dump_not_hex" />
+    <string name="info_valid_dump_not_16_bytes" />
+    <string name="info_valid_dump_sector_range" />
+    <string name="info_valid_dump_double_sector" />
+    <string name="info_valid_dump_empty_dump" />
+    <string name="info_share_error" />
+    <string name="dialog_share_title" />
+    <string name="info_no_external_storage" />
+    <string name="info_to_many_keys" />
+</resources>

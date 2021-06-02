@@ -1,0 +1,5 @@
+
+Csquid:S1068"'Remove this unused "TAG" private field.(ÜóÛÓüÿÿÿÿ
+’squid:UselessImportCheck"gRemove this unused import 'com.mx.vise.acarreos.fragments.CancelTicketFragment.BARCODE_LISTENER_EXTRA'.(Ò…Š©8‡³€™×-
+wsquid:UselessImportCheck"GRemove this unused import 'com.mx.vise.acarreos.tasks.BarcodeDetected'.(æúÒÑüÿÿÿÿ8‡³€™×-
+Vsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ

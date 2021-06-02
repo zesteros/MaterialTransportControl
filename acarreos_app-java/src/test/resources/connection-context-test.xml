@@ -1,0 +1,116 @@
+<!-- Creado por @Angelo Loza Archivo de contexto de la conexión al modelo 
+	de la base de datos. -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-4.2.xsd
+http://www.springframework.org/schema/tx
+http://www.springframework.org/schema/tx/spring-tx-4.2.xsd
+http://www.springframework.org/schema/mvc
+http://www.springframework.org/schema/mvc/spring-mvc.xsd
+http://www.springframework.org/schema/task
+http://www.springframework.org/schema/task/spring-task-4.2.xsd">
+
+	<!-- Property Configurator -->
+	<context:property-placeholder location="/database.properties.test" />
+
+	<!-- End Property Configurator -->
+
+
+	<!-- SQL CONECTION coneccion al vise-xpl2 -->
+	<bean id="dataSourceSql"
+		class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass"
+			value="${jdbc.sql.driver.class.name}" />
+		<property name="jdbcUrl" value="${jdbc.sql.url}" />
+		<property name="user" value="${jdbc.sql.username}" />
+		<property name="password" value="${jdbc.sql.password}" />
+		<property name="acquireIncrement" value="1" />
+		<property name="acquireRetryAttempts" value="3" />
+		<property name="acquireRetryDelay" value="300" />
+		<property name="initialPoolSize" value="5" />
+		<property name="maxPoolSize" value="15" />
+		<property name="minPoolSize" value="4" />
+	</bean>
+
+
+	<bean id="hib4AnnSesFacSql"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceSql" />
+		<property name="annotatedClasses">
+			<list>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubCatSindi</value>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubCatMarca</value>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubCamion</value>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubInfocub</value>
+				<value>com.mx.vise.xpl2.cubicacion.model.CubFotoRecor</value>
+			</list>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="org.hibernate.transaction">true</prop>
+			</props>
+		</property>
+	</bean>
+	<tx:annotation-driven
+		transaction-manager="transactionManagerXPL2" />
+	<bean id="transactionManagerXPL2"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="hib4AnnSesFacSql"></property>
+	</bean>
+	
+	<!-- SQL CONECTION coneccion al vise-nav Sistemas -->
+	<bean id="dataSourceSqlNavSistemas" class="com.mchange.v2.c3p0.ComboPooledDataSource"
+		destroy-method="close">
+		<property name="driverClass"
+			value="${jdbc.sql.nav.sistemas.driver.class.name}" />
+		<property name="jdbcUrl" value="${jdbc.sql.nav.sistemas.url}" />
+		<property name="user" value="${jdbc.sql.nav.sistemas.username}" />
+		<property name="password" value="${jdbc.sql.nav.sistemas.password}" />
+		<property name="acquireIncrement" value="1" />
+		<property name="acquireRetryAttempts" value="3" />
+		<property name="acquireRetryDelay" value="300" />
+		<property name="initialPoolSize" value="1" />
+		<property name="maxPoolSize" value="15" />
+		<property name="minPoolSize" value="1" />
+		<property name="testConnectionOnCheckin" value="true" />
+		<property name="idleConnectionTestPeriod" value="180"/>
+        <property name="preferredTestQuery" value="SELECT 1"/>
+	</bean>
+
+	<bean id="hib4AnnSesFacSqlNavSistemas"
+		class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+		<property name="dataSource" ref="dataSourceSqlNavSistemas" />
+		<property name="packagesToScan">
+			<array>
+				<value>com.mx.vise.nav.sistemas.activos.model</value>
+			</array>
+		</property>
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</prop>
+				<prop key="hibernate.show_sql">false</prop>
+				<prop key="org.hibernate.transaction">true</prop>
+			</props>
+		</property>
+	</bean>
+
+
+	<tx:annotation-driven transaction-manager="transactionManagerNavSistemas" />
+	<bean id="transactionManagerNavSistemas"
+		class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+		<property name="sessionFactory" ref="hib4AnnSesFacSqlNavSistemas"></property>
+	</bean>
+	
+	<!-- FIN SQL CONECTION conexion al vise-xpl2 -->
+</beans>
